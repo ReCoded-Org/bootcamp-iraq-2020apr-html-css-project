@@ -1,9 +1,9 @@
-#Team's Name is : 404
-members are:
-- Qays
+1-Team's Name is : 404
+2-members are:
+-Qays
 -Shirin
--Ahmed Assaf
--Sara Carpenter
+-Ahmed Alassaf
+-Sara Sadeq
 ------------------------------------------------------------
 3-Project's theme is PortFolio-Freelance :
 https://jevelin.shufflehound.com/portfolio-freelance/
@@ -19,7 +19,7 @@ animated effects using only CSS without JS....
 Waiting for the approval to start deciding and setting each team members' role...
 5-CSS framework: Bootstrap
 6- HomePage:
-	Header: Sara Carpenter
+	Header: Sara Sadeq
 	Section 1: Ahmed Alassaf
 	Section 2(Grid): Shirin Muatz
 	Footer: Ahmed Alassaf
@@ -30,17 +30,17 @@ Waiting for the approval to start deciding and setting each team members' role..
 
 
 #Website mockup
-![mockup](./mockup/portfolio_freelance.jpg)
-![mockup](./mockup/section.jpg)
-![mockup](./mockup/model.jpg)
+![mockup](./mockup/portfolio_freelance.jpeg)
+![mockup](./mockup/section.jpeg)
+![mockup](./mockup/model.jpeg)
 
 
 #Tablet mockup
 
-![mockup](./mockup/portfolio_freelance_tablet.jpg)
-![mockup](./mockup/section_tablet.jpg)
-![mockup](./mockup/model_phone.jpg)
+![mockup](./mockup/portfolio_freelance_tablet.jpeg)
+![mockup](./mockup/section_tablet.jpeg)
+![mockup](./mockup/model_phone.jpeg)
 #Phone mockup
-![mockup](./mockup/portfolio_freelance_phone.jpg)
-![mockup](./mockup/section_tablet.jpg)
-![mockup](./mockup/model_phone.jpg)
+![mockup](./mockup/portfolio_freelance_phone.jpeg)
+![mockup](./mockup/section_tablet.jpeg)
+![mockup](./mockup/model_phone.jpeg)
