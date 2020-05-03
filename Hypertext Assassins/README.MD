@@ -2,7 +2,7 @@
 ## Members name:
 *Mahmoud Mansour*, *Zeena Kareem*, *Shadan Abdulkarim*, *Ahmad Duhoki*
 ## The URL of the design:
-The URL of the our design is called [Home-Event](https://jevelin.shufflehound.com/home/home-event/).
+The URL of the our design is called [Home-Event](https://jevelin.shufflehound.com/startup-creative/).
 ## ScreenShots of the project.
 ![Desktop Design](./Desktop.jpg)
 ![Tablet Design](./Tablet.jpg)
