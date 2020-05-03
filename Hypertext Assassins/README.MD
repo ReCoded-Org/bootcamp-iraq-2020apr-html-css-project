@@ -8,11 +8,11 @@
 The URL of the our design is called [Startup-Creative](https://jevelin.shufflehound.com/startup-creative/).
 ## ScreenShots of the project.
 ### Desktop Design
-![Desktop Design](./Desktop.jpg)
+![Desktop Design](/Mockups/Desktop.jpg)
 ### Tablet Design
-![Tablet Design](./Tablet.jpg)
+![Tablet Design](/Mockups/Tablet.jpg)
 ### Mobile Version Design
-![Mobile Version Design](./Mobile.png)
+![Mobile Version Design](/Mockups/Mobile.png)
 ## The Framework:
 #### We have planned to use **Bootstrap 4** Framework.
 ## The part of the website that we planned to be done by May 5th:
