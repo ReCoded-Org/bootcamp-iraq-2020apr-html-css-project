@@ -1,5 +1,5 @@
 # HTML/CSS Project
-The TEAM name is Alpha , it consists of (Lawin,Ahemed-Jamal,Hewr,Aya-alassaf,and Randa-ghassan)
+The TEAM name is Alpha , it consists of (Lawin,Ahemed-Jamal,Hewr,Aya-alassaf,and Randa-yehia)
 
 we have chosen tow websites the first one is the
 # Medical(https://jevelin.shufflehound.com/medical/#contacts) ,
