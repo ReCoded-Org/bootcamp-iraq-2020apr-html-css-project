@@ -1,9 +1,10 @@
-# HTML/CSS Project
-
-1. Create a folder with your team name.
-2. Create a README.md inside the folder with a description of what you'll be working on.
-3. Upload an image (wireframes or screenshots) of what the page(s) you'll be developing.
-4. Submit a pull request with the above by the end of May 3.
-5. Once the images were accepted by the trainers team you should start working on implementing it
-6. Submit a pull request on May 5 with a `WIP` status which just shows your progress by then
-7. Submit a final pull request on May 8 (Friday) @ 9 PM which is the deadline for this assignment.
+------------------------------------------------------------
+Project Description:
+     The project is about building-up a complete, elegant and modern website for a Freelance
+Photographer named "Aaron", in an attractive way that would show his talent in shooting live 
+photos, in a way that allows you to hear not just see his photographs....
+Technically, more than the covered topics for the last 5 weeks so far will need to be applied,
+so we'll make use of the instructors' experience as much as needed, specially in implementing 
+animated effects using only CSS without JS....
+Waiting for the approval to start deciding and setting each team members' role...
+-------------------------------------------------------------
