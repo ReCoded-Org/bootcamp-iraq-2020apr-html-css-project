@@ -1,3 +1,12 @@
+Team's Name is : 404
+members are: 
+- Qays
+-Shirin
+-Ahmed Assaf
+-Sara Carpenter
+------------------------------------------------------------
+Project's theme is PortFolio-Freelance :
+https://jevelin.shufflehound.com/portfolio-freelance/
 ------------------------------------------------------------
 Project Description:
      The project is about building-up a complete, elegant and modern website for a Freelance
