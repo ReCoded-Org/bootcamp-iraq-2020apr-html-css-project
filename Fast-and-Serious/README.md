@@ -11,7 +11,7 @@ We'll be taking the desktop-down approach.
 4. Ubaida Muhanad
 
 ## The link to the design:
-[Creative Agency](https://jevelin.shufflehound.com/creative-agency/)
+<a href="https://jevelin.shufflehound.com/creative-agency/" target="_blank">Creative Agency</a>
 
 ## Screenshots (desktop, tablet, and mobile versions):
 Check muckup-imgs folder.
@@ -19,23 +19,26 @@ Check muckup-imgs folder.
 ## Who will be working on each part of the website:
 We have divided the sections of the main page between us, here's how that'll work,
 
-### Vazhin & Bawan
+### Vazhin
 * landing-page
 * SERVICES & PORTFOLIO
 * ACHIEVEMENTS
+
+### Bawan
 * MASTER CREW
 * Advertising section
 * OUR CLIENTS & partners
 
-### Ubaida & Mohamed
+### Mohamed
 * Subscribe to our newsletter
 * CONTACT US
 * Entire footer
 
 > note: that's just to start out, we will change plans according to the needs.
+> Also, Ubaida is not available in the moment so we left him out of plan for now.
 
 ## The CSS Framework we'll be using:
-bootstrap, *some of us*
+None
 
 ## How much of the website we plan on finishing by May 5:
 We plan on completing half of the main page by may 5.
