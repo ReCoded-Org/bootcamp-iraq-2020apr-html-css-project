@@ -1,9 +1,14 @@
 # HTML/CSS Project
+The TEAM name is Alpha , it consists of (Lawin,Ahemed-Jamal,Hewr,Aya-alassaf,and Randa-ghassan)
 
-1. Create a folder with your team name.
-2. Create a README.md inside the folder with a description of what you'll be working on.
-3. Upload an image (wireframes or screenshots) of what the page(s) you'll be developing.
-4. Submit a pull request with the above by the end of May 3.
-5. Once the images were accepted by the trainers team you should start working on implementing it
-6. Submit a pull request on May 5 with a `WIP` status which just shows your progress by then
-7. Submit a final pull request on May 8 (Friday) @ 9 PM which is the deadline for this assignment.
+we have chosen tow websites the first one is the
+# Medical(https://jevelin.shufflehound.com/medical/#contacts) ,
+ and
+# the second is the Single-product(https://jevelin.shufflehound.com/single-product/)
+
+ Hewr talked about the bootstrap frame work and how to use it , and we diveded the work between us ,we had chosen Boot strap as a frame work for styling , 
+
+ in fact we did not clear the divisions of working but generally , everyone will select  a section and work on it his work icluded (html &Boot strap & CSS) 
+
+ we decidedto finish the project at the thursday (7 / may ); to get enough time if we has a problem ... (IN CHAA ALLAH)
+
