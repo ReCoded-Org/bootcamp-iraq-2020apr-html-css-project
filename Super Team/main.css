@@ -7,15 +7,17 @@
       color: white;
       background-color: rgb(250, 104, 78);
   }
-  .content {
+  /*What We Can Offer section*/
+  .bg-img{
     background-image:url(imgs/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
-.container h1 {
-font-weight:bold;
-font-family: 'Cormorant Garamond', serif;
-}
+
 .card {
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px;
 }
 .card img {
     padding-top:60px;
@@ -35,36 +37,19 @@ font-family: 'Cormorant Garamond', serif;
     font-size: 15px;
     padding-left: 30px;
 }
-h4 {
-    text-align: center;
-    font-size:15px;
+
+h6:before,
+h6:after {
+  background-color: rgb(166, 166, 166);
+  content: "";
+  display: inline-block;
+  height: 0.2px;
+  position: relative;
+  vertical-align: middle;
+  width: 6%;
+  margin: 10px;
 }
-.text {
-    margin:0 auto;
-    max-width: 10%;
-    position:relative;
-    color:rgb(209, 204, 204);;
-}
-.text:before {
-    content:"";
-    display:inline-block;
-    width:120px;
-    height:1px;
-    background-color:rgb(209, 204, 204);
-    position:absolute;
-    right:150px;
-    top: 60%;
-}
-.text:after {
-    content:"";
-    display:block;
-    width:120px;
-    height:1px;
-    background-color:rgb(209, 204, 204);
-    position:absolute;
-    left:157px;
-    top:60%;
-}
+
 .col-rt {
     animation-name: right;
     animation-duration: 1s;
@@ -96,6 +81,9 @@ h4 {
     100% {left:0}
 }
 
+
+
+/*Our Team section*/
 .sec-4{
     background-color: #f9f9f9;
     height: 115vh;
@@ -108,19 +96,8 @@ h4 {
     padding-top: 4%;
     color:rgb(62, 62, 62);
   }
-  h6:before,
-  h6:after {
-    background-color: rgb(166, 166, 166);
-    content: "";
-    display: inline-block;
-    height: 0.2px;
-    position: relative;
-    vertical-align: middle;
-    width: 6%;
-    margin: 10px;
-  }
- .card-size{
 
+ .card-size{
     margin: 3% auto !important;
     width: 83% !important;
   }
