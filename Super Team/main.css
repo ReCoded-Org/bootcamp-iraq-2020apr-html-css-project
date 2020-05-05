@@ -2,25 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 100%;
   }
   *::selection{
       color: white;
       background-color: rgb(250, 104, 78);
   }
+
   /*What We Can Offer section*/
+
   .bg-img{
     background-image:url(imgs/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
-
 .card {
     padding: 0px 50px;
 }
-.card img {
-    padding-top:60px;
+.padd{
+    padding-top: 60px;
 }
 .card h2 {
     text-align: center;
@@ -37,7 +39,6 @@
     font-size: 15px;
     padding-left: 30px;
 }
-
 h6:before,
 h6:after {
   background-color: rgb(166, 166, 166);
@@ -49,7 +50,6 @@ h6:after {
   width: 6%;
   margin: 10px;
 }
-
 .col-rt {
     animation-name: right;
     animation-duration: 1s;
@@ -81,12 +81,59 @@ h6:after {
     100% {left:0}
 }
 
+/*dana's code*/
 
+.h{
+    font-style: italic;
+    font-weight: 100;
+    font-family:"Cormorant Garamond" ;
+    color: #3E3E3E;
+    opacity: 0.6;
+    width: 50%;
+    z-index: 1;
+    margin-top: 200px;
+}
+#ind{
+  font-style: italic;
+  font-weight: 400;  
+   opacity: 0.3;
+   font-size:400px;
+   position: absolute;
+   margin-top: -200px;
+   margin-left: 180px;
+   font-family: "Cormorant Garamond ";
+   line-height: o.1px;
+}
+.text{
+   margin-left: 150px;
+   width: 50%;
+   height:auto;
+   text-align: justify;
+   opacity: 0.5;
+}
+.l{
+    font-style: italic;
+   font-weight: 100;
+    font-family:"Cormorant Garamond" ;
+    color: #3E3E3E;
+    opacity: 0.6;
+    width: 63%;
+   z-index: 1;
+   margin-top: 200px;
+}
+#about{
+   margin-left: 150px; 
+   font-weight: 400;
+   font-size: 12px;
+   margin-top: 100px;
+   opacity: 0.8;
+}
 
 /*Our Team section*/
+
 .sec-4{
     background-color: #f9f9f9;
-    height: 115vh;
+    height: 95vh;
     width: 100vw;
   }
   .lightgray-text{
@@ -110,7 +157,35 @@ h6:after {
   }
   .img-style{
       width: 100%;
-      height: 50%;
       border-radius: 5% !important;
       cursor: pointer;
+  }
+  .img-style-abd{
+    width: 110%;
+    height: 325px;
+    border-radius: 5% !important;
+    cursor: pointer;
+}
+
+  /*customer*/
+
+.customer{
+    height: 75vh;
+    background-color:#f9f9f9;
+}
+
+.date{
+    background-image: url(//cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/brooke-lark-385504.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+  /*footer*/
+
+  footer{
+      background-color:#363535;
+      color: white;
+      height: 20vh;
   }
