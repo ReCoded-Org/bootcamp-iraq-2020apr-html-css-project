@@ -61,7 +61,7 @@
 }
 
 .div_left_container{
- width: 50%;
+ width: 40%;
 
 }
 .right_container{
@@ -78,6 +78,7 @@
     font-weight: 700;
     font-family: "Montserrat";
     color: #403f52;
+    margin-bottom: 70px;
     }
 .button{
     font-family: "Montserrat";
@@ -87,13 +88,23 @@
     padding-bottom:20px;
     padding-left: 36px;
     padding-right: 36px;
+    
     font-size: 16px;
     font-weight: 500;
     border-radius: 4px;
     background-color: #ffffff;
     color: #000000;
     border: 2px solid #2d1dff;
+
+
+
+    /*animation*/
     
+    transition-delay:0.1s ;
+    transition: 0.1s linear;
+
+    
+
    
 }
 .icon-size{
@@ -128,6 +139,64 @@ margin-bottom: 30px;
     height: auto;
 }
 
+    
+/*responsive tablet*/
+
+
+@media only screen and (max-width: 768px) {
+    .wrap{
+flex-wrap: wrap;
+    }
+    .div_left_container{
+        width: 100%;
+        margin-left: 5%;
+       margin-bottom: 10%;;
+    }
+    .paragrph{
+        width:80%;
+    }
+    .right_container{
+        margin-left: 5%;
+        width:45%;
+
+    }
+}
+/*responsive mobile*/
+@media only screen and (max-width: 360px) {
+    .wrap{
+        flex-wrap: wrap;
+            }
+    .div_left_container{
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 20%;
+    }
+    .paragrph{
+        margin-bottom: 10%;
+    }
+    .right_container div{
+        margin-left:0px;
+        
+    }
+    .content{
+        font-size: 15px;
+        margin: 0px 0px 15px 0
+    }
+}
+
+/*animation   button*/
+
+.button:hover{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #000000;
+    
+    
+}
+
+
+
+
 
 
 
@@ -143,3 +212,4 @@ margin-bottom: 30px;
         font-size: 2.1rem;
     }
 }
+
