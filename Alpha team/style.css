@@ -11,9 +11,67 @@
 
 /* Hewr End */
 
-/* Randa Start */
-
-
+/*  Start what our customers say (done by randa) */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Raleway','Helvetica','Arial',sans-serif;
+    font-size: 14px;
+    color: #8d8d8d;
+    line-height: 1.7;
+    font-weight: 400;
+  }
+  .slide-addres{
+    text-align: center;
+    color: #3F3849;
+    
+    
+  }
+  .silder-area{
+    background: #F4F4F4;
+    padding: 50px 0;
+    margin: 20px 0;
+    position: relative;
+  }
+.img-area{
+  margin: 0 auto;
+  width: 100px;
+  height: 110px;
+  overflow: hidden;
+  text-align: center;
+}
+.img-area img{
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(0,0,0,.05),0 5px 20px rgba(0,0,0,.05);
+}
+.carousel-caption{
+  position: static;
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+.carousel-caption > p
+{
+  color:#8D8698;
+  margin: auto;
+  width: 60%;
+  font-size: 18px;
+}
+.carousel-caption > span
+{
+  color:#8D8698;
+  font-size: 22px;
+}
+.carousel-caption > h3
+{
+  font-size: 26px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color:#7C1EFD ;
+}
+/*  end what our customers say (done by randa) */
 
 
 /* Ahmed start */
