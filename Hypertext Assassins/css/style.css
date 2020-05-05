@@ -25,3 +25,86 @@
 .grid-i {
     color: #070b07;
 }
+.play-btn {
+    width: 50px;
+    height: 50px;
+}
+
+
+.section2{
+    padding-top: 350px;
+    padding-bottom:350px;
+    margin:0px 0px 0px 5%;
+ 
+}
+.p{
+    font-size: 18px;
+    font-weight: 500!important;
+    color: #6f7581;
+}
+
+.div_left_container{
+ width: 50%;
+
+}
+
+
+
+    .right_container{
+        width:30%;
+
+    }
+    .paragrph{
+width:70%;
+margin:2% 0% 5% 0%;
+    
+    }
+    .paragrph h2{ 
+        font-size: 46px;
+        
+        font-weight: 700;
+        font-family: "Montserrat";
+    color: #403f52;
+    }
+.button{
+    font-family: "Montserrat";
+    text-align: center;
+    line-height: 56px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 36px;
+    padding-right: 36px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #2d1dff;
+   
+}
+.icon-size{
+    color: #2d1dff;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.h{
+    font-size: 20px;
+    font-weight: 600!important;
+    color: #454272;
+    margin-top: 20px;
+}
+.content{
+    font-size: 20px;
+    
+    
+    font-family: "Montserrat";
+    color: #9c9ab1;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+}
+.margin-down{
+margin-bottom: 30px;
+}
+
