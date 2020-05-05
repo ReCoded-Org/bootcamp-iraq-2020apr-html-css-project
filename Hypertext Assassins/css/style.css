@@ -42,7 +42,7 @@
 }
 
 .div_left_container{
- width: 50%;
+ width: 40%;
 
 }
 
@@ -63,6 +63,7 @@ margin:2% 0% 5% 0%;
         font-weight: 700;
         font-family: "Montserrat";
     color: #403f52;
+    margin-bottom: 70px;
     }
 .button{
     font-family: "Montserrat";
@@ -72,12 +73,19 @@ margin:2% 0% 5% 0%;
     padding-bottom:20px;
     padding-left: 36px;
     padding-right: 36px;
+    
     font-size: 16px;
     font-weight: 500;
     border-radius: 4px;
     background-color: #ffffff;
     color: #000000;
     border: 2px solid #2d1dff;
+
+
+    /*animation*/
+    
+    transition-delay:0.1s ;
+    transition: 0.1s linear;
    
 }
 .icon-size{
@@ -130,7 +138,7 @@ flex-wrap: wrap;
 
     }
 }
-
+/*responsive mobile*/
 @media only screen and (max-width: 360px) {
     .wrap{
         flex-wrap: wrap;
@@ -151,8 +159,17 @@ flex-wrap: wrap;
         font-size: 15px;
         margin: 0px 0px 15px 0
     }
-   
+}
 
+/*animation button*/
+
+.button:hover{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #000000;
+    
+    
+}
 
 
 
