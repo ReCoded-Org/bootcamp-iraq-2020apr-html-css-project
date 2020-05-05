@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: transparent;
+  animation-name: slide1;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes slide1 {
+  0% {
+    margin-top: -8vh;
+  }
+  100% {
+    margin-top: 0vh;
+  }
+}
+
+.navbar-light {
+  background: white;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 27px;
+  margin-top: 0;
+  margin-left: 40px;
+  color: white;
+}
+nav ul {
+  margin-right: 40px;
+}
+nav ul li {
+  padding: 0 3px;
+}
+nav ul li .icon {
+  margin: 0 -7px;
+}
+.nav-link {
+  font-size: 16px;
+  color: white;
+}
+.jucie-img-container {
+  background-image: url(https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/17/2018/01/background-slider.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text h2 {
+  color: yellow;
+  font-family: "Sacramento", cursive;
+  font-size: 8vh;
+}
+.text h5 {
+  color: #e7e7e0;
+  font-family: "Montserrat", cursive;
+  font-size: 2vh;
+}
+.text h1 {
+  color: #e7e7e0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 12vh;
+}
+.lemon-container {
+  position: relative;
+  height: auto;
+}
+.lemon {
+  margin-top: 9%;
+  margin-left: 21.5%;
+}
+.prem {
+  margin-top: -9%;
+}
+.text-right {
+  animation-name: right;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+@keyframes right {
+  0% {
+    margin-left: 180%;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+.text-left {
+  animation-name: left;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+@keyframes left {
+  0% {
+    margin-left: -180%;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+.lemon {
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+@keyframes bounce {
+  0% {
+    margin-bottom: 8vh;
+    opacity: 0;
+  }
+  20% {
+    margin-bottom: 0.5vh;
+    opacity: 1;
+  }
+  40% {
+    margin-bottom: 1.5vh;
+  }
+  60% {
+    margin-bottom: 0.3vh;
+  }
+  80% {
+    margin-bottom: 1vh;
+  }
+  100% {
+    margin-bottom: 0vh;
+  }
+}
+.navbar.scrolled {
+  background-color: white;
+  animation-name: slide2;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes slide2 {
+  0% {
+    margin-top: -8vh;
+  }
+  100% {
+    margin-top: 0vh;
+  }
+}
+.new.black {
+  color: black !important;
+}
+#navbarSupportedContent {
+  text-align: right;
+}
+.hide-icons {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .hide-icons {
+    display: inline-flex;
+  }
+}
