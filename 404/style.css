@@ -109,7 +109,23 @@
         text-align: center;
     }
 }
-
+.models {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.model {
+    flex: 0 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+.model-img {
+    padding: 3px;
+    height: 24vh;
+}
     /* Ahmed end */
 
 
