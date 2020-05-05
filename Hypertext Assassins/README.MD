@@ -41,6 +41,8 @@ The URL of the our design is called [Startup-Creative](https://jevelin.shuffleho
 - Counters part *Shadan Abdulkareem*
 - Highest security in the castle and Worlds most amazing ideas are living here part *Ahmed Duhoki*
 
+## part one is completed on the deadline and you can comment and add your feedback 
+
 ### The Second part of the website
 
 ### The readme will be updated after 5th of may
