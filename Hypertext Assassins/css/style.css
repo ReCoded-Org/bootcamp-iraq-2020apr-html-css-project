@@ -160,6 +160,9 @@ flex-wrap: wrap;
         width:45%;
 
     }
+    .img-text h1{
+        font-size: 2.1rem;
+    }
 }
 /*responsive mobile*/
 @media only screen and (max-width: 360px) {
@@ -181,6 +184,9 @@ flex-wrap: wrap;
     .content{
         font-size: 15px;
         margin: 0px 0px 15px 0
+    }
+    .img-text h1{
+        font-size: 2.1rem;
     }
 }
 
@@ -206,10 +212,5 @@ flex-wrap: wrap;
 
 
 
-/* Media Query for mobile devices support*/
-@media only screen and (max-width: 812px){
-    .img-text h1{
-        font-size: 2.1rem;
-    }
-}
+
 
