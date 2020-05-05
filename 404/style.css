@@ -118,5 +118,33 @@
 
     
     /* Qays */
+    .swiper-container {
+        white-space: nowrap;
+        overflow: auto;
+    }
+    .swiper-slide img {
+        height: 680px;
 
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+      }
+
+
+    @media screen and (max-width: 1400px) and (min-width: 1025px){
+         .swiper-slide img {
+        height: 500px;
+        }
+    }
+
+    @media (max-width: 1024px){
+         .swiper-slide img {
+            height: 300px;
+        }
+    }
+
+      
+   
     /* Qays end */
