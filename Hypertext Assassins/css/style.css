@@ -106,10 +106,16 @@ margin:2% 0% 5% 0%;
 margin-bottom: 30px;
 }
 
+
+
+    
 /*responsive tablet*/
 
 
 @media only screen and (max-width: 768px) {
+    .wrap{
+flex-wrap: wrap;
+    }
     .div_left_container{
         width: 100%;
         margin-left: 5%;
@@ -126,6 +132,9 @@ margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 360px) {
+    .wrap{
+        flex-wrap: wrap;
+            }
     .div_left_container{
         width: 100%;
         margin-left: 5%;
@@ -143,8 +152,10 @@ margin-bottom: 30px;
         margin: 0px 0px 15px 0
     }
    
-    
-}
+
+
+
+
 
 
 
