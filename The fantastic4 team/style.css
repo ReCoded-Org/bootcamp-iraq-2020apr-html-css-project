@@ -1,0 +1,186 @@
+/* start of timeline secion */
+.tl-margin{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.timeline-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    font-size: x-large;
+}
+
+
+.timeline-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: larger;
+
+}
+
+.timeline-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.time-item{
+    width: 20%;
+    text-align: right;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.time-circle{
+    background-color: #f3ab3c;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 1px 1px 1px #cacaca;
+}
+.line{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.line::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: rgba(39, 27, 27, 0.13);
+    top: 0;
+    bottom: 0;
+    left: 31.4%;
+    margin-left: -3px;
+}
+.time-body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 60%;
+    box-shadow: 1px 1px 1px 1px #cacaca;
+    padding: 0;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.time-body h4, .time-body p {
+    /* background-color: black; */
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+/* end of timeline secion  */
+
+/* start of how to apply section */
+.hta-background{
+    background-image: url(images/hta_img.jpg);
+    background-size: cover;
+    height: 520px;  
+}
+.hta-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hta-row{
+    position: static;
+    width: 0%;  
+}
+.hta-title{
+    margin-top: 180px;
+    width: 550px;
+    color: white;
+    font-size: x-large;
+}
+.hta-title h1 {
+    padding: 0px;
+    margin: 2px;
+}
+.hta-body{
+    width: 550px;
+    color: white;
+    font-size: larger;
+}
+.hta-button{
+    width: 180px;
+    height: 50px;
+
+}
+.hta-button a {
+    background-color: #5d73c9;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/* end of how to apply section */
+
+@media (max-width:640px){ 
+    /* start of timeline section */
+    .timeline-title{
+        text-align: center;
+    }
+    .timeline-row{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .time-item{
+        width: 45%;
+        margin-left: 10px;
+    }
+    .time-body{
+        margin-left: 40px;
+        width: 80%;
+    }
+    .line::after {
+        left: 4%;
+    }
+    /* end of timeline section */
+
+    /* start of how to apply section */
+    .hta-row{
+        position: static;
+        width: 95%;  
+    }
+    .hta-background{
+        background-image: url(images/hta_imgs.jpg);
+        background-size: cover;
+        height: 520px;  
+    }
+    .hta-title{
+        margin-top: 120px;
+        width: 300px;
+    }
+    .hta-title h1 {
+        padding: 0px;
+        margin: 2px;
+        font-size: x-large;
+    }
+    .hta-body{
+        width: 300px;
+        color: white;
+        font-size: large;
+    }
+}
+
