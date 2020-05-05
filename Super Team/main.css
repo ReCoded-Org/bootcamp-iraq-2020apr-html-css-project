@@ -178,17 +178,16 @@
     }
     
 /*What We Can Offer section*/
-
-.bg-img{
+.bg-img {
   background-image:url(imgs/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+
 }
 .card{
   padding: 0px 50px;
-  opacity: 0.5;
+  
+}
+.style-h {
+  font-family: 'Cormorant Garamond', serif;
 }
 .padd{
   padding-top: 60px;
@@ -201,7 +200,7 @@
 .card-h2{
   text-align: center;
   color:#363535;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Arapey', serif;
   font-size: 40px;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -210,8 +209,11 @@
 .card-p{
   text-align: center;
   color:rgb(146, 143, 143);
-  font-size: 15px;
+  font-size: 20px;
   padding-left: 30px;
+}
+.column3 {
+  margin-top: 25px;
 }
 h6:before,
 h6:after {
@@ -236,12 +238,13 @@ margin: 10px;
 }
 .col-mid {
   animation-name:middle;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
 }
 @keyframes middle {
   0% {opacity: 0;} 
+  50% {opacity:0;}
   100% {opacity: 1;} 
 }
 .col-lt {
