@@ -9,7 +9,7 @@ We'll do the home page only.
 4. Zainab Azzam
 
 ## The link to the design:
-<a href="https://jevelin.shufflehound.com/creative-agency/" target="_blank">Creative Agency</a>
+<a href="https://jevelin.shufflehound.com/creative-agency/">Creative Agency</a>
 
 ## Screenshots (desktop, tablet, and mobile versions):
 Check muckup-imgs folder.
