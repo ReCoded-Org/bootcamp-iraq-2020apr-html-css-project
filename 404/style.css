@@ -31,11 +31,84 @@
 
 
     /* Ahmed */
-
-
-
-
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.text-padding {
+    padding: 60px;
+}
+.font-Aaron {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.font-Aaron-dis {
+    font-size: 20px;
+    font-weight: 170;
+    line-height: 170%;
+    font-family: 'Montserrat', sans-serif;
+}
+.div-align {
+    margin: 0px 0px 15px 0px;
+    line-height: 220%;
+}
+.spancolor {
+    color: #6f7581;
+}
+.pad-top {
+    padding-top: 150px;
+}
+.k30-20 {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.years-photos {
+    color: #294cff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer {
+    background-color: #151515;
+}
+.font-get {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 130%;
+}
+.Hire-me {
+    line-height: 68px;
+    padding: 0px 40px 0px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: rgba(41,76,255,0.01);
+    color: #ffffff;
+    border: 2px solid transparent;
+    border: 2px solid #878787;
+}
+.Hire-me:hover {
+    background-color: rgba(41,76,255,0.01);
+    border: 2px solid #ffffff;
+}
+.get-align {
+    text-align: left;
+}
+@media (max-width: 800px) {
+    .get-align {
+        text-align: center;
+    }
+}
+.Hire-align {
+    text-align: right;
+}
+@media (max-width: 800px) {
+    .Hire-align {
+        text-align: center;
+    }
+}
 
     /* Ahmed end */
 
