@@ -1,4 +1,10 @@
 /* showcase styling */
+:root {
+    --white: #fff;
+    --yellow: #ffbe0b;
+    --grey: #50514f;
+    --montserrat-font: Montserrat;
+}
 .background-img {
     position: relative;
     height: 100vh;
@@ -6,29 +12,42 @@
 .background-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    transform: scale(1.4);
-    
-    
-    
-    
+    object-fit: cover;  
 }
 .img-text {
+    font-family: var(--montserrat-font);
+    user-select: none;
     position: absolute;
-    top: 30%;
+    top: 10%;
     width: 100%;
-    color: #fff;
-    
-    
-    
+    color: var(--white); 
 }
-.grid-i {
-    color: #070b07;
+.img-text h1 {
+    font-weight: 700;
+    font-size: 68px;
+}
+.img-text h4 {
+    font-weight: 350;
+
+}
+.grid-icon {
+    color: var(--grey);
 }
 .play-btn {
-    width: 50px;
-    height: 50px;
+    color: var(--white);
+    transition: all 500ms;
+    
 }
+.play-btn:hover {
+    color: var(--yellow);
+    transition: all 500ms;
+    transform: scale(1.0);
+}
+.em-color{
+    color: var(--yellow);
+}
+
+
 .section2{
     padding-top: 350px;
     padding-bottom:350px;
@@ -42,27 +61,24 @@
 }
 
 .div_left_container{
- width: 50%;
+ width: 40%;
 
 }
-
-
-
-    .right_container{
+.right_container{
         width:30%;
 
     }
-    .paragrph{
-width:70%;
-margin:2% 0% 5% 0%;
+.paragrph{
+    width:70%;
+    margin:2% 0% 5% 0%;
     
     }
-    .paragrph h2{ 
-        font-size: 46px;
-        
-        font-weight: 700;
-        font-family: "Montserrat";
+.paragrph h2{ 
+    font-size: 46px;        
+    font-weight: 700;
+    font-family: "Montserrat";
     color: #403f52;
+    margin-bottom: 70px;
     }
 .button{
     font-family: "Montserrat";
@@ -72,12 +88,23 @@ margin:2% 0% 5% 0%;
     padding-bottom:20px;
     padding-left: 36px;
     padding-right: 36px;
+    
     font-size: 16px;
     font-weight: 500;
     border-radius: 4px;
     background-color: #ffffff;
     color: #000000;
     border: 2px solid #2d1dff;
+
+
+
+    /*animation*/
+    
+    transition-delay:0.1s ;
+    transition: 0.1s linear;
+
+    
+
    
 }
 .icon-size{
@@ -105,3 +132,85 @@ margin:2% 0% 5% 0%;
 .margin-down{
 margin-bottom: 30px;
 }
+
+
+.carousel-inner img {
+    width: 360px;
+    height: auto;
+}
+
+    
+/*responsive tablet*/
+
+
+@media only screen and (max-width: 768px) {
+    .wrap{
+flex-wrap: wrap;
+    }
+    .div_left_container{
+        width: 100%;
+        margin-left: 5%;
+       margin-bottom: 10%;;
+    }
+    .paragrph{
+        width:80%;
+    }
+    .right_container{
+        margin-left: 5%;
+        width:45%;
+
+    }
+    .img-text h1{
+        font-size: 2.1rem;
+    }
+}
+/*responsive mobile*/
+@media only screen and (max-width: 360px) {
+    .wrap{
+        flex-wrap: wrap;
+            }
+    .div_left_container{
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 20%;
+    }
+    .paragrph{
+        margin-bottom: 10%;
+    }
+    .right_container div{
+        margin-left:0px;
+        
+    }
+    .content{
+        font-size: 15px;
+        margin: 0px 0px 15px 0
+    }
+    .img-text h1{
+        font-size: 2.1rem;
+    }
+}
+
+/*animation   button*/
+
+.button:hover{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #000000;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
