@@ -71,7 +71,16 @@
             height: 300px;
         }
     }
+*{
+    font-family: 'Montserrat', sans-serif;
 
+}
+    .portfolio-title{
+        font-weight: 700;
+    font-size: 30px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 20px;
+    }
       
    
     /* Qays end */
