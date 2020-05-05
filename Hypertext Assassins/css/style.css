@@ -200,6 +200,26 @@ flex-wrap: wrap;
     
 }
 
+/* ahmad's branch*/
+.fas-check {
+    color: #2D1DFF;
+}
+
+.h2-heading{
+    font-size: 3.1em !important;        
+    font-family: "Montserrat";
+    color: #403f52;
+}
+
+.p-lorem{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    color: #9c9ab1;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.9rem;
+}
+
 
 
 
