@@ -183,11 +183,12 @@
   background-image:url(imgs/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 .card{
   padding: 0px 50px;
+  opacity: 0.5;
 }
 .padd{
   padding-top: 60px;
@@ -310,6 +311,10 @@ footer{
     background-color:#363535;
     color: white;
     height: 20vh;
+}
+.fot-padd{
+  margin-left: 170px;
+  margin-top: 20px;
 }
 .fot-padd li{
   list-style-type: none;
