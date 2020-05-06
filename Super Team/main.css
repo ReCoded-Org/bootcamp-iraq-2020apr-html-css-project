@@ -89,12 +89,12 @@
       margin-top: -8.5%;
     }
     .text-right {
-      animation-name: right;
+      animation-name: rr;
       animation-duration: 2s;
       animation-iteration-count: 1;
       animation-timing-function: ease-in-out;
     }
-    @keyframes right {
+    @keyframes rr{
       0% {
         margin-left: 180%;
         opacity: 0;
@@ -105,12 +105,12 @@
       }
     }
     .text-left {
-      animation-name: left;
+      animation-name: ll;
       animation-duration: 2s;
       animation-iteration-count: 1;
       animation-timing-function: ease-in-out;
     }
-    @keyframes left {
+    @keyframes ll{
       0% {
         margin-left: -180%;
         opacity: 0;
@@ -271,7 +271,9 @@ margin: 10px;
   padding: 200px 45px 200px 140px;
 }
 .myrow{
+  margin: 0;
   margin-top: 30px;
+
 }
 #h1{
   font-family: "Cormorant Garamond";
