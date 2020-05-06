@@ -52,4 +52,4 @@ The second part of the website
 - Customers part *Zeena Abdalkareem*
 - testimonial menu *Ahmed Duhoki*
 - last section and footer *Mahmoud Mansour*
-those parts will be delivered by 8th of May (Friday)
+## those parts will be delivered by 8th of May (Friday)
