@@ -1,49 +1,53 @@
+/* Sara */
 
+/* Sara end */
 
+/* Shirin */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body section {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 850px) {
+  .grid-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+  }
+  .col-flex {
+    width: 33.3333%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+  }
+  .grid-item {
+    width: 100%;
+    display: block;
+    flex: 1;
+    border: 30px solid whitesmoke;
+  }
+  .grid-item img {
+    width: 100%;
+    height: 100%;
+  }
+}
 
+/* Shirin end */
 
+/* Ahmed */
 
+/* Ahmed end */
 
-    /* Sara */
+/* Qays */
 
-
-
-
-    /* Sara end */
-
-
-
-
-
-    /* Shirin */
-
-
-
-
-    
-    /* Shirin end */
-
-
-
-
-
-
-
-    /* Ahmed */
-
-
-
-
-
-
-    /* Ahmed end */
-
-
-
-
-
-    
-    /* Qays */
-
-    /* Qays end */
+/* Qays end */
