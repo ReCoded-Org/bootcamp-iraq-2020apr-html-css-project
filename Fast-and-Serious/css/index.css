@@ -1173,3 +1173,86 @@ border: 0;
 
 
 /*////////////// Bawan's part End ///////////////*/
+
+
+/*////////////// Mohammad part Start ///////////////*/
+
+.Moh-Section1 .card{
+    background-color: #5B40CF;
+    flex-direction: column;
+}
+.Moh-Section1 {
+    background-color: #5B40CF;
+    margin: 150px auto;
+}
+.card .card-text {
+    color: rgb(184, 173, 231);
+}
+.card-text-title-big{
+    text-align: left;
+    font-size: 48px;
+    line-height: 54px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 800;
+    box-sizing: border-box;
+    
+}
+.empty-space-top {
+    height: 200px;  
+    display: block;
+}
+
+.empty-space-med {
+    height: 25px;
+    display: block;
+}
+.empty-space-bottom {
+    height: 50px;
+    display: block;
+}
+
+.card-group .card {
+    margin-bottom: 0px;
+}
+.card-group .card .card-no1 {
+    background-image: url(http://jevelin.shufflehound.com/creative-agency/wp-content/uploads/sites/24/2018/09/01.png?id=469) ;
+}
+.card-group .card .card-no2 {
+    background-image: url(http://jevelin.shufflehound.com/creative-agency/wp-content/uploads/sites/24/2018/09/02.png?id=470)  ;
+}
+.card-group .card .card-no3 {
+    background-image: url(http://jevelin.shufflehound.com/creative-agency/wp-content/uploads/sites/24/2018/09/03.png?id=471)  ;
+}
+.card-group .card .card-no1,
+.card-group .card .card-no2,
+.card-group .card .card-no3{
+    padding-right: 30px ;
+    padding-left: 30px ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .card-group {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: flex-start;
+        align-items: center;
+        width: 75%;
+        margin: 0 auto ;
+    }
+}
+@media only screen and (max-width: 650px){
+    .card-group {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .card-text-title-big{
+        font-size: 2.5rem;
+    }
+}
+
+/*////////////// Mohammad part End ///////////////*/
