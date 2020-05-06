@@ -51,5 +51,5 @@ The second part of the website
 - Gallery Part *Shadan Abulkareem*
 - Customers part *Zeena Abdalkareem*
 - testimonial menu *Ahmed Duhoki*
--last section and footer *Mahmoud Mansour*
+- last section and footer *Mahmoud Mansour*
 those parts will be delivered by 8th of May (Friday)
