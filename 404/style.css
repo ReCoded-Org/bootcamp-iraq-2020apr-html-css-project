@@ -230,6 +230,21 @@
     padding: 3px;
     height: 24vh;
 }
+.align-copy {
+    text-align: left;
+}
+.align-icons {
+    float: right;
+}
+@media (max-width: 770px) {
+    .align-copy {
+        text-align: center;
+    }
+    .align-icons {
+        float:none;
+        justify-content: center;
+    }
+}
     /* Ahmed end */
 
 
