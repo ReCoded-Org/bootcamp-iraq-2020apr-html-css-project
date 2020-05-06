@@ -45,4 +45,11 @@ The URL of the our design is called [Startup-Creative](https://jevelin.shuffleho
 
 ### The Second part of the website
 
-### The readme will be updated after 5th of may
+### Updated version of Readme after 5th of may 
+
+The second part of the website
+- Gallery Part *Shadan Abulkareem*
+- Customers part *Zeena Abdalkareem*
+- testimonial menu *Ahmed Duhoki*
+-last section and footer *Mahmoud Mansour*
+those parts will be delivered by 8th of May (Friday)
