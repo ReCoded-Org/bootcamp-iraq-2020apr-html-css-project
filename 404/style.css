@@ -10,7 +10,7 @@ body section {
   align-items: center;
 }
 
-/* Sara */
+/* ---------------------------------------------------------------Sara */
 
 .bgImage {
   margin: 0;
@@ -137,17 +137,17 @@ body section {
     width: 100%;
     display: block;
     flex: 1;
-    border: 7px solid whitesmoke;
   }
   .grid-item img {
     width: 100%;
     height: 100%;
     animation: 2s ease-out 0s 1 slideInFromBottom;
+    border: 7px solid white;
   }
 }
 /* Shirin end */
 
-/* Ahmed */
+/* ------------------------------------------------------------------------Ahmed */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -246,7 +246,7 @@ body section {
 }
 /* Ahmed end */
 
-/* Qays */
+/* --------------------------------------------------------------Qays */
 .swiper-container {
   white-space: nowrap;
   overflow: auto;
