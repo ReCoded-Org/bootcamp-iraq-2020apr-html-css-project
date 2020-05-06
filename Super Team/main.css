@@ -180,6 +180,8 @@
 /*What We Can Offer section*/
 .bg-img {
   background-image:url(imgs/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .card{
@@ -194,8 +196,8 @@
   padding-left: 120px;
   width: 400px;
   max-width: 100%;
-    min-height: 1px;
-    height: auto;
+  min-height: 1px;
+  height: auto;
 }
 .card-h2{
   text-align: center;
@@ -259,7 +261,40 @@ margin: 10px;
 }
 /*dana's code*/
 
-
+.image{
+  padding: 0 !important;
+}
+.mycolumn{
+  padding: 0;
+}
+.seccolumn{
+  padding: 200px 45px 200px 140px;
+}
+.myrow{
+  margin-top: 30px;
+}
+#h1{
+  font-family: "Cormorant Garamond";
+  font-size: 40px;
+  font-weight: 200 !important;
+  opacity: 90%;
+  color: gray;
+}
+#lorem{
+  opacity: 95%;
+  color: gray;
+}
+.myem{
+  font-family: "Cormorant Garamond";
+  font-size: 580px;
+  font-weight: 100;
+  position:absolute;
+  font-style: italic;
+  opacity: 10%;
+  color: gray;
+  z-index: -1;
+  margin-top: -500px;
+}
 
 /*Our Team section*/
 .sec-4{
@@ -290,11 +325,36 @@ margin: 10px;
     height: 350px;
     border-radius: 5% !important;
     cursor: pointer;
+    padding: 0 !important;
 }
 .card-deck .card{
-  margin-left: 0 !important;
-  margin-right: 0 !important;
   background-color:#f9f9f9;
+  padding: 0 !important;
+}
+
+/*menu*/
+
+.menu-bg-img{
+  padding: 360px 0px 300px 0px;
+  position: relative;
+  background-image:url(https://cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/brooke-lark-385490.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-bg-img2{
+  position: absolute;
+  padding: 0px 0px 500px 0px;
+  margin: -500px 0px 0px 0px;
+  z-index: 100;
+  background-image:url(https://cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/Layer-0-copy-3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50% 100%;
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
 }
 
 /*customer*/
