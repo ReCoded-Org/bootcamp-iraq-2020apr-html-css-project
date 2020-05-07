@@ -1,8 +1,12 @@
 /* showcase styling */
+body {
+    font-family: "Montserrat";
+}
 :root {
     --white: #fff;
     --yellow: #ffbe0b;
     --grey: #50514f;
+    --light-grey: #b8b6d3;
   
 }
 .background-img {
@@ -121,8 +125,6 @@
 }
 .content{
     font-size: 20px;
-    
-    
     font-family: "Montserrat";
     color: #9c9ab1;
     font-weight: 300;
@@ -246,10 +248,17 @@ flex-wrap: wrap;
     color: #F76D2F;
 }
 .headings-text {
-    font-family: "Montserrat";
+    
     line-height: 2.6;
     font-weight: 600;
 }
-.list-text {
-    font-family: "Montserrat";
+.list-text a {
+    line-height: 2.4;
+    font-size: 0.88rem;
+    color: var(--light-grey)
+    
+}
+.list-text a:hover {
+    color: var(--white);
+    text-decoration: none;
 }
