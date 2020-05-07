@@ -232,6 +232,7 @@
 }
 .align-copy {
     text-align: left;
+    font-size: 12px;
 }
 .align-icons {
     float: right;
@@ -244,6 +245,37 @@
         float:none;
         justify-content: center;
     }
+}
+.overlay-heart {
+    background-color: rgba( 0, 0, 0, 0.5 );
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+    height: 96.5%;
+    width: 96.5%;
+}
+.containo {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.containo:hover .overlay-heart {
+    opacity:1;
+}
+.text-heart {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
     /* Ahmed end */
 
