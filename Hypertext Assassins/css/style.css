@@ -224,7 +224,7 @@ flex-wrap: wrap;
 }
 .ls-container {
     position: relative;
-    height: 100vh;
+    
 
 }
 .ls-img img {
@@ -234,7 +234,7 @@ flex-wrap: wrap;
 }
 .ls-content {
     position: absolute;
-    top: 25%;
+    top: 40%;
     color: var(--white);
     left: 5%;
     font-size: 1.1rem;
@@ -266,4 +266,8 @@ flex-wrap: wrap;
 .list-text a:hover {
     color: var(--white);
     text-decoration: none;
+}
+.ls-footer {
+    font-size: 0.9rem;
+    color: var(--light-grey);
 }
