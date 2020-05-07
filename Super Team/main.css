@@ -8,8 +8,10 @@
     color: white;
     background-color: rgb(250, 104, 78);
 }
+section{
+  overflow: hidden;
+}
   /*Abdulrahman code*/
-    
     .navbar {
       background-color: transparent;
       animation-name: slide1;
@@ -24,11 +26,9 @@
         margin-top: 0vh;
       }
     }
-    
     .navbar-light {
       background: white;
     }
-    
     .navbar-brand {
       font-family: "Pacifico", cursive;
       font-size: 27px;
@@ -176,17 +176,14 @@
         display: inline-flex;
       }
     }
-    
 /*What We Can Offer section*/
 .bg-img {
   background-image:url(imgs/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .card{
   padding: 0px 50px;
-  
 }
 .style-h {
   font-family: 'Cormorant Garamond', serif;
@@ -211,7 +208,7 @@
 .card-p{
   text-align: center;
   color:rgb(146, 143, 143);
-  font-size: 20px;
+  font-size: 15px;
   padding-left: 30px;
 }
 .column3 {
@@ -297,7 +294,6 @@ margin: 10px;
   z-index: -1;
   margin-top: -500px;
 }
-
 /*Our Team section*/
 .sec-4{
   background-color: #f9f9f9;
@@ -333,9 +329,80 @@ margin: 10px;
   background-color:#f9f9f9;
   padding: 0 !important;
 }
+.ctext{
+  font-size: 12px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+}
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
 /*menu*/
-
 .menu-bg-img{
   padding: 360px 0px 300px 0px;
   position: relative;
@@ -358,30 +425,54 @@ margin: 10px;
   width: 100vw;
   height: 100vh;
 }
-
 /*customer*/
 .customer{
   height: 75vh;
   background-color:#f9f9f9;
 }
-.date{
-  background-image: url(//cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/brooke-lark-385504.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+/*select a date & book now*/
+.select-date-bg-img{
+  position: relative;
+  padding: 0 !important;
+}
+.text-block {
+ position: absolute;
+ top: 100px;
+ left: 120px;
+ right: 120px;
+ background-color: white;
+ border-radius: 15px;
+}
+.style-input{  
+  border-width: 0!important;
+  border-bottom-width: 1px!important;
+  border-radius: 0 !important;
+  line-height: 82px!important;
+  padding: 0 46px;
+}
+.link-style{
+  color: black;
+}
+.link-style:hover{
+  color: rgb(166, 166, 166);
+  text-decoration: none;
+}
+.form-control-new:focus{
+  outline:0;
+  box-shadow: none;
+  border-color: tomato;
 }
 /*footer*/
 footer{
     background-color:#363535;
     color: white;
-    height: 20vh;
+    overflow: hidden;
 }
 .fot-padd{
-  margin-left: 170px;
-  margin-top: 20px;
+ display: flex;
+ flex-direction: row;
 }
 .fot-padd li{
   list-style-type: none;
-  padding: 0 25px;
+  padding: 40px;
 }
