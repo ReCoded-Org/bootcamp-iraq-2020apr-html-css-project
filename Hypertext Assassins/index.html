@@ -20,6 +20,10 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
+<!-- Add the slick-theme.css -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
 <body>
     <!--Showcase Part Mahmoud Mansour -->
@@ -237,8 +241,26 @@
 
 
 
+<!--Gallery - Shadan Abdulkarim-->
+<div class="gallery-slider">
+     
+    <div class=" d-flex flex-row post-w">
+        <img class="col-lg-4 ml-auto col-sm-6" src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash1.jpg">
+    
+       <img class="col-lg-4 ml-auto col-sm-6" src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash5.jpg">
+   
+       <img class="col-lg-4 ml-auto col-sm-6" src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash.jpg">
+      
+
+       <img class="col-lg-4 ml-auto col-sm-6" src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash3.jpg">
+       <img class="col-lg-4 ml-auto col-sm-6" src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash2.jpg">
+       <img class="col-lg-4 ml-auto col-sm-6" src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash4.jpg">
+   
+       <img class="col-lg-4 ml-auto col-sm-6"  src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash6.jpg">
+   </div>
 
 
+</div>
 
 
 
@@ -256,6 +278,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <script src="./js/jquery.waypoints.min.js"></script>
 
@@ -270,5 +293,25 @@
         });
   })
 </script> 
+<script>
+    $('.post-w').slick({
+    arrows:false,
+slidesToShow: 3,
+slidesToScroll: 3,
+autoplay: true,
+autoplaySpeed: 5000,
+dots: true,
+responsive: [
+{
+
+breakpoint: 600,
+settings: {
+  slidesToShow: 2,
+  slidesToScroll: 2,
+}}
+
+]
+});
+  </script>
 </body>
 </html>
