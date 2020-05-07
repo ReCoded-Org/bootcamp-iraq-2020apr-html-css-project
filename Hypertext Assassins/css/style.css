@@ -9,7 +9,7 @@ body {
     --light-grey: #b8b6d3;
   
 }
-.background-img {
+.background-img { 
     position: relative;
     height: 100vh;
 }
