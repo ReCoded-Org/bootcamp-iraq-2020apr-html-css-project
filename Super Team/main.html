@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
@@ -48,15 +46,11 @@
         crossorigin="anonymous"
       ></script>
       <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
-
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
     <title>Super Team</title>
 </head>
-<body>
-  
+<body> 
 <!--abdulrahman code -->
-  
 <section id="navbar">
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
     <a class="navbar-brand new" href="#">super team</a>
@@ -67,24 +61,22 @@
       data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent"
       aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-​
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link new" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link new" href="#">About Us</a>
+          <a class="nav-link new" href="#offer">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link new" href="#">Menu</a>
+          <a class="nav-link new" href="#menu">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link new" href="#">Reservation</a>
+          <a class="nav-link new" href="#date">Reservation</a>
         </li>
         <li class="nav-item">
           <a class="nav-link new" href="#">Contacts</a>
@@ -151,17 +143,22 @@
   <script>
     AOS.init();
   </script>
-​
-​
 <!--what we can offer -->
 <main>
-  <section class="container-fluid">
-
+  <section class="container-fluid" style="padding: 0 !important;" id="offer">
     <h1 class="text-center style-h">What We Can Offer</h1>
     <h6 class="text-center lightgray-text">From Our Hearts</h6>
+<<<<<<< HEAD
 
     <div class="row bg-img">
       
+||||||| 36fd829
+
+    <div class="row text-center bg-img">
+      
+=======
+    <div class="row text-center bg-img">
+>>>>>>> 4291517a3af7e89f28dd7370b928f3fd69421ed8
         <div class="col-md-4 card col-lt card-border border-0 bg-transparent">
             <img src="imgs/P1.png" alt="foodie 1" class="padd center-block"><br>
             <h2 class="card-h2"> <strong> Always</strong> Fresh</h2>
@@ -180,14 +177,11 @@
             </div>
           </div>
     </div>
- 
 </section>
-​
 <!--dana's code-->
-​
 <section>
   <div class="row myrow">
-      <div class="col-lg-6 col-md-12 col-sm-12 mycolumn " ><img src="imgs/brooke-1.jpg" class="image shadow mb-5 rounded col-12 animated slideInLeft"></div>
+      <div class="col-lg-6 col-md-12 col-sm-12 mycolumn " ><img src="imgs/brooke-1.jpg" class="image shadow mb-5 rounded col-12" data-aos="fade-right" data-aos-duration="1500"></div>
       <div class="col-lg-6 col-m-12 col-sm-12 seccolumn">
           <div class="col-lg-9 col-md-12">
               <p class="myem"><em>w</em></p>
@@ -206,53 +200,54 @@
               sodales ultrices. Pellentesque bibendum condimentum neque, nec iaculis augue ultrices ac.
               Fusce interdum viverra aliquet.</p></div>
       </div>
-      <div class="col-lg-6 col-md-12 col-sm-12 mycolumn"><img src="imgs/monika-grabkowska-2.jpg" class="image shadow mb-5 rounded col-12 animated slideInRight"></div>      
+      <div class="col-lg-6 col-md-12 col-sm-12 mycolumn"><img src="imgs/monika-grabkowska-2.jpg" class="image shadow mb-5 rounded col-12" data-aos="fade-left" data-aos-duration="1500"></div>      
   </div>    
 </section>
-​
 <!--our team -->
-​
 <section class="container-fluid sec-4">
   <h1 class="text-center style-h">Our Team</h1>
   <h6 class="text-center lightgray-text">For Creating This Website</h6>
-​
      <div class="row card-deck card-size ">
          <div class="col-md-3 col-sm-12 card card-border">
-           <img src="imgs/Hanan.jpg" class="card-img-top img-style" alt="Hanan">
+           <img src="imgs/Hanan.jpg" class="card-img-top img-style" alt="Hanan" id="hanan">
            <div class="card-body text-center bg-color">
              <h5 class="card-title style-h">Hanan Dlshad</h5>
-             <p class="card-text">i'm 20 years old, i live in <b>Erbil</b>,and i'm student on 3rd stage in <b>Software </b>department.</p>
+             <p class="card-text ctext">i'm 20 years old, i live in <b>Erbil</b>,and i'm student on 3rd stage in <b>Software </b>department.</p>
            </div>
          </div>
          <div class="col-md-3 col-sm-12 card card-border">
-         <img src="imgs/abdulrahman.png"  class="card-img-top img-style" alt="Abdulrahman">
+         <img src="imgs/abdulrahman.png"  class="card-img-top img-style" alt="Abdulrahman" id="3abd">
            <div class="card-body text-center bg-color">
              <h5 class="card-title style-h">Abdulrahman Maher</h5>
-             <p class="card-text">i'm 23 years old, i live in <b>Mosul</b>,and i have degree in <b>Pathological Analysis</b>.</p>
+             <p class="card-text ctext">i'm 23 years old, i live in <b>Mosul</b>,and i have degree in <b>Pathological Analysis</b>.</p>
            </div>
          </div>
          <div class="col-md-3 col-sm-12 card card-border">
-           <img src="imgs/zainab.jpg" class="card-img-top img-style" alt="Zainab">
+           <img src="imgs/zainab.jpg" class="card-img-top img-style" alt="Zainab" id="zainab">
             <div class="card-body text-center bg-color">
              <h5 class="card-title style-h">Zainab Saud</h5>
-             <p class="card-text">I'm 26 years old, I live in<b> Mosul</b> & I'm a newly graduated<b> doctor</b>.</p>
+             <p class="card-text ctext">I'm 26 years old, I live in<b> Mosul</b> & I'm a newly graduated<b> doctor</b>.</p>
             </div>
          </div>
          <div class="col-md-3 col-sm-12 card card-border">
-             <img src="imgs/dana.jpg" class="card-img-top img-style" alt="Dana">
+             <img src="imgs/dana.jpg" class="card-img-top img-style" alt="Dana" id="dana">
              <div class="card-body text-center bg-color">
                <h5 class="card-title style-h">Dana Kamaran</h5>
-               <p class="card-text">i'm 23 years old, i live in <b>Erbil</b>,and i'm student on 4th stage in <b>Software </b>department.</p>
+               <p class="card-text ctext">i'm 23 years old, i live in <b>Erbil</b>,and i'm student on 4th stage in <b>Software </b>department.</p>
              </div>
          </div>
       </div>
+      <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 </section>
 <br>
 <br>
 <!--menu -->
-
-<section class="container-fluid menu-bg-img">
-
+<section class="container-fluid menu-bg-img" id="menu">
 </section>
 <section class="container-fluid menu-bg-img2">
 <div class="container bg-white">
@@ -366,37 +361,190 @@
 <!--customer --> 
 ​
 <section class="container-fluid customer">
-  
   <h1 class="text-center style-h">Customer</h1>
   <h6 class="text-center lightgray-text">Stories About Us</h6>
-​
-​
-​
 </section>
-​
 <!--select a date & book now -->
-<section class="container-fluid date">
+<section class="container-fluid select-date-bg-img" id="date">
+    <img src="//cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/brooke-lark-385504.jpg" alt="Norway" style="width:100%;">
+    <div class="text-block" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+    <h1 class="text-center style-h">Select a Date & Book Now</h1>
+    <h6 class="text-center lightgray-text">We will confirm order via E-mail or Phone</h6>
+    <form action="" class="container">
+      <div class="form-row" style="margin-top: 50px;">
+        <div class="col">
+          <input type="text" class="form-control style-input form-control-new" placeholder="First Name*"> 
+        </div>
+        <div class="col">
+          <input type="text" class="form-control style-input form-control-new" placeholder="Last Name*">
+        </div>
+      </div>
+      <div class="form-row" style="margin-top: 50px;">
+        <div class="col">
+          <input type="email" class="form-control style-input form-control-new" placeholder="E-mail Address*">
+        </div>
+        <div class="col">
+          <input type="tel" class="form-control style-input form-control-new" placeholder="Phone Number">
+        </div>
+      </div>
+      <div class="form-row" style="margin-top: 50px;">
+        <div class="col">
+          <input type="date" class="form-control style-input form-control-new" >
+        </div>
+        <div class="col">
+          <select id="time" name="time" class="form-control style-input form-control-new">
+            <option value="time">Time*</option>
+            <option value="t1">09:00</option>
+            <option value="t2">09:30</option>
+            <option value="t3">10:00</option>
+            <option value="t4">10:30</option>
+            <option value="t5">11:00</option>
+            <option value="t6">11:30</option>
+            <option value="t7">12:00</option>
+            <option value="t8">12:30</option>
+            <option value="t9">13:00</option>
+            <option value="t10">13:30</option>
+            <option value="t11">14:00</option>
+            <option value="t12">14:30</option>
+            <option value="t13">15:00</option>
+            <option value="t14">15:30</option>
+            <option value="t15">16:00</option>
+            <option value="t16">16:30</option>
+            <option value="t17">17:00</option>
+            <option value="t18">17:30</option>
+            <option value="t19">18:00</option>
+            <option value="t20">18:30</option>
+            <option value="t21">19:00</option>
+            <option value="t22">19:30</option>
+            <option value="t23">20:00</option>
+            <option value="t24">20:30</option>
+          </select>
+        </div>
+        <div class="col">
+          <select id="person" name="person" class="form-control style-input form-control-new">
+            <option value="person">Persons*</option>
+            <option value="p1">1 person</option>
+            <option value="p2">2 persons</option>
+            <option value="p3">3 persons</option>
+            <option value="p4">4 persons</option>
+            <option value="p5">5 persons</option>
+            <option value="p6">6 persons</option>
+            <option value="p7">7 persons</option>
+            <option value="p8">8 persons</option>
+            <option value="p9">9 persons</option>
+            <option value="p10">10 persons</option>
+            <option value="p11">11 persons</option>
+            <option value="p12">12 persons</option>
+            <option value="p13">13 persons</option>
+            <option value="p14">14 persons</option>
+            <option value="p15">15 persons</option>
+          </select>
+        </div>
+      </div>
+      <p class="text-center" style="margin: 80px 0 90px;"><a href="#" class="link-style"><b>Book Now</b></a></p>
+  </form>
+    </div>
 </section>
 </main>
 <!-- footer -->
-<footer class="container-fluid">
+<footer class="container-fluid col-sm-12">
   <div class="row">
-    <div class="col-md-4">
-​       <h1 class="navbar-brand new" style="font-size: 40px; color: white !important; text-align: center; padding: 20px 0 0 80px;">Super Team</h1>
+    <div class="col-sm-12" style="margin: 0 !important; display: flex; flex-direction: row; align-items: center;">
+    <div class="col-sm-4">
+​       <h1 class="navbar-brand new" style="font-size: 40px; color: white !important; text-align: center;">Super Team</h1>
     </div>
-    <div class="col-md-4">
-        <p style="text-align: center; padding-top: 40px;">WordPress Theme built by<b>Shufflehound</b></p>
+    <div class="col-sm-4">
+        <p style="margin: 0px; text-align: center;">WordPress Theme built by<b>Shufflehound</b></p>
     </div>
-    <div class="col-md-4">
-​       
-<div class="hide-icons fot-padd d-flex align-items-center">
+  <div class="col-sm-4">   
+<ul class="fot-padd">
   <li><i class="fab fa-twitter"></i></li>
   <li><i class="fab fa-facebook-f"></i></li>
   <li><i class="fab fa-instagram"></i></li>
-</div>      
-
-    </div>
+</ul>      
+ </div>
+</div>
 </div>
 </footer>
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("zainab");
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("dana");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("3abd");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+      </script>
+      <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("hanan");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+        </script>
 </body>
 </html>
