@@ -409,7 +409,7 @@ body {
     }
     #decorative-text {
         margin-left: -100px;
-        margin-top: 100px;
+        margin-top: -45px;
     }
     #website-name-all {
         font-size: 65px;
@@ -421,11 +421,6 @@ body {
     #landing-section {
         height: 60vh;
         max-width: 100%;
-    }
-}
-@media only screen and (max-width: 768px){
-    #decorative-text {
-        margin-top: 10px;
     }
 }
 @media only screen and (max-width: 650px){
@@ -691,6 +686,106 @@ body {
     padding: 0;
 }
 
+.portfolio--image {
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.portfolio--image:hover {
+    transform: scale(1.2);
+}
+
+
+/*////////////// images' modal view Start //////////////////////*/
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    padding: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  }
+  
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 25%;
+}
+  
+  /* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+  
+/* Add Animation */
+.modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+  
+  /* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1 !important;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 1024px){
+    .modal-content {
+        max-width: 80%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .modal-content {
+        max-width: 100%;
+    }
+}
+
+/*////////////// images' modal view End //////////////////////*/
+
+
 .portfolio-images-button-wrapper {
     margin-top: 80px;
     display: flex;
@@ -723,16 +818,6 @@ body {
 .portfolio-images-button:hover {
     background-color: #FF8D67;
     cursor: pointer;
-}
-
-.portfolio--image {
-    width: 100%;
-    height: auto;
-    transition: all 0.5s ease-in-out;
-}
-
-.portfolio--image:hover {
-    transform: scale(1.2);
 }
 
 /*////////////// Portfolio section End ///////////////*/
@@ -1272,6 +1357,13 @@ height: 330px;
     background-size: cover ;
     padding-left: 80px;
     padding-right: 80px;
+}
+
+@media only screen and (max-width: 1300px){ 
+    .card-text-title-big{
+        font-size: 30px;
+        line-height: 38px; 
+    }
 }
 
 @media only screen and (max-width: 1000px){
