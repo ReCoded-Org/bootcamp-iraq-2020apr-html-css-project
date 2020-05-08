@@ -541,6 +541,7 @@ footer{
 /* map */
 .myform{
   padding: 0 !important;
+  margin: 0 !important;
 }
 .formh1{
   font-family: "Cormorant Garamond";
