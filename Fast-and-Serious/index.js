@@ -59,3 +59,17 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
   modal.style.display = "none";
 }
+
+var clicked = false;
+function show_menu(){
+  if (!clicked){
+    clicked = true;
+    document.getElementById("navbar").style.display = "flex";
+    return;
+  }
+  if (clicked){
+    clicked = false;
+    document.getElementById("navbar").style.display = "none";
+    return;
+  }
+}
