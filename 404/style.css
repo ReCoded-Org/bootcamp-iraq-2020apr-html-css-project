@@ -125,6 +125,8 @@
 }
 .menu-button{
     display: none;
+    background-color: transparent;
+
 }
 .menu-button div{
     width: 35px;
