@@ -183,7 +183,7 @@ section{
   background-size: cover;
 }
 .card{
-  padding: 0px 50px;
+  padding: 0px 50px !important;
 }
 .style-h {
   font-family: 'Cormorant Garamond', serif;
@@ -225,37 +225,6 @@ position: relative;
 vertical-align: middle;
 width: 6%;
 margin: 10px;
-}
-.col-rt {
-  animation-name: right;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-}
-@keyframes right {
-  0% {right:35%}
-  100% {right:0} 
-}
-.col-mid {
-  animation-name:middle;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-}
-@keyframes middle {
-  0% {opacity: 0;} 
-  50% {opacity:0;}
-  100% {opacity: 1;} 
-}
-.col-lt {
-  animation-name: left; 
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-}
-@keyframes left {
-  0% {left:35%}
-  100% {left:0}
 }
 /*dana's code*/
 
@@ -300,8 +269,6 @@ margin: 10px;
 }
 /*Our Team section*/
 .sec-4{
-  background-color: #f9f9f9;
-  height: 95vh;
   width: 100vw;
 }
 .lightgray-text{
@@ -314,24 +281,13 @@ margin: 10px;
 .card-size{
   margin: 3% auto !important;
   width: 83% !important;
+  padding: 0 !important;
 }
 .card-border{
     border-style: none !important;
 }
 .bg-color{
-    color: rgb(166, 166, 166) !important;
-    background-color: #f9f9f9;   
-}
-.img-style{
-    width: 100%;
-    height: 350px;
-    border-radius: 5% !important;
-    cursor: pointer;
-    padding: 0 !important;
-}
-.card-deck .card{
-  background-color:#f9f9f9;
-  padding: 0 !important;
+    color: rgb(166, 166, 166) !important;   
 }
 .ctext{
   font-size: 15px;
@@ -386,9 +342,9 @@ margin: 10px;
 /* The Close Button */
 .close {
   position: absolute;
-  top: 15px;
+  top: 55px;
   right: 35px;
-  color: #f1f1f1;
+  color: #f1f1f1 !important;
   font-size: 60px;
   font-weight: bold;
   transition: 0.3s;
@@ -396,7 +352,7 @@ margin: 10px;
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: rgba(187, 187, 187, 0.562);
   text-decoration: none;
   cursor: pointer;
 }
@@ -486,20 +442,63 @@ padding:0px 50px 0px 40px;
 }
 /*customer*/
 .customer{
-  height: 75vh;
-  background-color:#f9f9f9;
+  height:90vh;
+  background-color: #F9F9F9;
 }
+.carousel-item.active{
+  height: 70vh;
+}
+.img-size{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 12vh auto 0;
+  box-shadow: 2px 1px 3px #646464;
+  position: relative;}
+  .carousel-caption {
+      position: absolute;
+     margin: 4vh 10% 4vh;
+      z-index: 10;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: #646464;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .carousel-caption h3{
+      color: red;
+  }
+  .intro{
+      height: auto;
+      text-align: center;
+  }
+  .carousel-control-next{
+      height: 16vh;
+      margin-right: 20vw;
+      margin-top: 2vh;
+      z-index: 20;
+  }
+  .carousel-control-prev{
+      height: 16vh;
+      margin-left: 20vw;
+      margin-top: 2vh;
+      z-index: 20;
+  }
+  .carousel-control-next-icon {
+      background-image: url(./imgs/right-arow.png);
+      height: 30px;
+  }
+  .carousel-control-prev-icon {
+      background-image: url(./imgs/left-arow.png);
+      height: 30px;}
 /*select a date & book now*/
 .select-date-bg-img{
+  background-image: url(//cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/brooke-lark-385504.jpg);
   position: relative;
   padding: 0 !important;
-  min-height: 100vh;
 }
 .text-block {
- position: absolute;
- top: 100px;
- left: 120px;
- right: 120px;
+ margin: 100px;
  background-color: white;
  border-radius: 15px;
 }
