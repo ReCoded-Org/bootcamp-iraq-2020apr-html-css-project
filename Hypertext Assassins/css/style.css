@@ -358,4 +358,12 @@ flex-wrap: wrap;
 
 }
 
-
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #2D1DFF;
+  }
+  
+  ::selection {
+    color: white;
+    background: #2D1DFF;
+  }
