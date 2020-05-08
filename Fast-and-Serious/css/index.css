@@ -1504,3 +1504,114 @@ height: 330px;
 }
 
 /*////////////// Contact Us section End ///////////////*/
+
+
+
+/*////////////// Zainab's part Start ///////////////*/
+
+.footer-header {
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+.text-color {
+    color: rgb(170, 170, 170);
+    font-weight: 300;
+    font-size: .9rem;
+}
+.white-text {
+    color: white;
+}
+.img3-container{
+    display: flex;
+    flex-direction: row;
+}
+.img2 {
+    font-size: 20px;
+    color: white;
+    padding: 0 7px;
+}
+.img3 {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    padding: 5px;
+}
+.fa-facebook {
+    padding-left: 0 !important;
+}
+.wrapper-img3-footer {
+    padding: 0 !important;
+}
+.fotter-class {
+    background-color: #363636;
+    margin-left: 5px;
+    margin-right: 5px;;
+    padding-top: 50px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.con {
+    position: relative;
+    width: 50%;
+}
+.img1 {
+    width: 175px;
+    height: 175px;
+    margin: 5px;
+}
+.overlay {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    position: absolute;
+    opacity:1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 175px;
+    width: 175px;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient( to bottom left, rgba(97,115,241,0.51), rgba(254,119,74,0.5) );
+}
+.con:hover .overlay {
+    opacity: 1;
+}
+
+.copyright-section {
+    background-color: #252525; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important; 
+    align-items: center; 
+    height: 90px !important;
+    font-size: 14px;
+    color: #f4f4f4;
+    font-weight: 300;
+    padding: 0 !important;
+}
+
+@media screen and (max-width:720px){
+    .row {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        justify-content: center;
+    } 
+    .footer-header {
+        padding-left: 0;
+        text-align: center;
+    }
+    .text-color {
+        font-size: 1.15rem;
+    }
+    .white-text {
+        font-size: 1.4rem;
+    }
+}
+
+/*////////////// Zainab's part End ///////////////*/
