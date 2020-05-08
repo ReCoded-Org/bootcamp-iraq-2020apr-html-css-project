@@ -130,6 +130,9 @@
 
 
     /* Shirin */
+    .pad-grid {
+        padding-top: 50px;
+    }
     .h2-grid {
         font-size: 43px;
         font-family: "Montserrat";
@@ -153,19 +156,9 @@
         transition: 0.3s all ease-in-out;
         font-family: "Montserrat";
       }
-      @keyframes slideInFromBottom {
-        0% {
-          transform: translateY(100%);
-        }
-        100% {
-          transform: translateY(0);
-        }
-      }
     .card{
        
         overflow: hidden;
-        animation: 2s ease-out 0s 1 slideInFromBottom;
-        transition: transform 0.4s ease-in-out;
 
     }
    
@@ -234,7 +227,7 @@
     color: #ffffff;
   }
             
-
+    
     /* Shirin end */
 
 
