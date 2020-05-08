@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------------------------------------------Sara */
+
+.bgImage {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 800px;
+  animation: slide 20s infinite;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+@keyframes slide {
+  0% {
+    background: url(./imgs/Rectangle-528-copy-211.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  50% {
+    background: url(./imgs/Rectangle-528-copy-212.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background: url(./imgs/Rectangle-528-copy-213.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.contain {
+  float: right;
+  padding: 40px;
+  position: relative;
+  margin-left: 10rem;
+  width: 100%;
+  height: 20%;
+  font-size: 15px;
+}
+.container-position {
+  float: right;
+  margin-right: 25rem;
+}
+.contain a {
+  color: white;
+  position: relative;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background: none;
+  color: grey;
+  margin-left: 20px;
+  font-size: 15px;
+  border: none;
+}
+.dropButton {
+  width: auto;
+  height: auto;
+  color: white;
+  background: none;
+  border: none;
+}
+
+.dropcontent {
+  display: none;
+  position: absolute;
+  color: none;
+
+  text-align: left;
+}
+.dropcontent a {
+  color: grey;
+  padding-right: 100px;
+  float: left;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropcontent {
+  display: block;
+}
+.dropcontent a:hover {
+  background: white;
+  margin-left: 20px;
+}
+.box {
+  margin-top: 40px;
+  margin-left: -10rem;
+  float: right;
+  text-align: left;
+  padding: 10px 10px;
+  background: #232323;
+}
+
+/* Sara end */
+
+/*--------------------------------------------------------- Shirin */
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@media only screen and (min-width: 850px) {
+  .grid-container {
+    width: 82%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+  }
+  .col-flex {
+    width: 33.3333%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    margin: 0 10px; /* to add space between each col-flex on left and right*/
+  }
+  .grid-item {
+    width: 100%;
+    display: block;
+    flex: 1;
+    position: relative;
+    /*overflow: hidden; /* will hide anything that overflows the div width on hovering */
+    margin: 10px auto; /* to add a space between top & bottom for the images in one col-flex*/
+  }
+  .insider img {
+    width: 100%;
+    height: 100%;
+    animation: 2s ease-out 0s 1 slideInFromBottom;
+    /* border: 7px solid white; */ /* removed the border and used margin instead because it causes a problems on hovering */
+    transition: transform 0.4s ease-in-out; /* used the transition on the img itself so the effect of the smooth movement will be on hover and when you un hover also */
+  }
+}
+
+.insider img:hover {
+  filter: brightness(70%);
+  transform: scale(1.2);
+}
+.insider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-overlay {
+  display: none;
+  pointer-events: none; /* make the top layer transparent to allow beneath layers to be clickable*/
+  text-align: center;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: 45%;
+  right: auto;
+  margin: 0;
+  padding: 0;
+}
+.card-overlay h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+}
+.card-overlay p {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff !important;
+  opacity: 0.8;
+  transition: 0.3s all ease-in-out;
+  font-family: "Montserrat";
+}
+.insider:hover .card-overlay {
+  display: block;
+}
+/* Shirin end */
+
+/* ------------------------------------------------------------------------Ahmed */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.text-padding {
+  padding: 60px;
+}
+.font-Aaron {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.font-Aaron-dis {
+  font-size: 20px;
+  font-weight: 170;
+  line-height: 170%;
+  font-family: "Montserrat", sans-serif;
+}
+.div-align {
+  margin: 0px 0px 15px 0px;
+  line-height: 220%;
+}
+.spancolor {
+  color: #6f7581;
+}
+.pad-top {
+  padding-top: 150px;
+  margin: 0px 20px 0px;
+}
+.k30-20 {
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.years-photos {
+  color: #294cff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer {
+  background-color: #151515;
+}
+.font-get {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 130%;
+}
+.Hire-me {
+  line-height: 68px;
+  padding: 0px 40px 0px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: rgba(41, 76, 255, 0.01);
+  color: #ffffff;
+  border: 2px solid transparent;
+  border: 2px solid #878787;
+}
+.Hire-me:hover {
+  background-color: rgba(41, 76, 255, 0.01);
+  border: 2px solid #ffffff;
+}
+.get-align {
+  text-align: left;
+}
+@media (max-width: 800px) {
+  .get-align {
+    text-align: center;
+  }
+}
+.Hire-align {
+  text-align: right;
+}
+@media (max-width: 800px) {
+  .Hire-align {
+    text-align: center;
+  }
+}
+.models {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.model {
+  flex: 0 0 15%;
+  display: flex;
+  flex-direction: column;
+}
+.model-img {
+  padding: 3px;
+  height: 24vh;
+}
+/* Ahmed end */
+
+/* --------------------------------------------------------------Qays */
+.swiper-container {
+  white-space: nowrap;
+  overflow: auto;
+}
+.swiper-slide img {
+  height: 680px;
+
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1025px) {
+  .swiper-slide img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .swiper-slide img {
+    height: 300px;
+  }
+}
+
+/* Qays end */
