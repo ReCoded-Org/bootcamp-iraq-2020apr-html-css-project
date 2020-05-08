@@ -154,6 +154,25 @@
       }
     
 }
+
+
+.nav-white a,.nav-white button {
+color:     #313131;
+}
+.nav-white .btn-primary{
+    color:white;
+}
+.nav-white  .dropcontent a{
+    color: grey;
+
+}
+.nav-white  .menu-button div{
+    width: 35px;
+    height: 2px;
+    background-color: #313131;
+    margin: 10px 0;
+  
+}
     /* Sara end */
 
 
