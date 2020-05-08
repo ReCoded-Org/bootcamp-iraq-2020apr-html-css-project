@@ -132,15 +132,10 @@ body {
 }
 .content{
 
-    font-size: 17px;
+    font-size: 15px;
    font-family: "Montserrat";
-
-    font-size: 20px;
-    font-family: "Montserrat";
-
     color: #9c9ab1;
     font-weight: 200;
-    
     line-height: 30px;
 }
 .margin-down{
@@ -186,15 +181,15 @@ margin-bottom: 30px;
 
 }
 .section6{
-    margin: 150px 20px 150px 60px;
-     
+    margin: 150px 50px 150px 50px;
+    
  }
  .header2{
-     width:350px;
+     width:100%;
      margin:30px 0px;
  }
  .Curabitur_aliquam{
-     width:370px;
+     width:100%;
      margin-bottom: 30px;
  }
  
@@ -207,18 +202,20 @@ margin-bottom: 30px;
  }
  
  .card_paragraph{
-     width:320px;
+     width:100%;
      margin:25px 0px;
  
  }
  .container_img{
+     
  margin-top:50px;
+ 
  }
  .card_cust{
-    width: 45rem; height: 15rem;
+    width:40rem; 
+    height:auto;
     
-    margin-left: 150px;
-    margin-bottom: 20px;
+    margin:20px 0px 20px 0px;
  }
 
 .p2{
@@ -241,6 +238,7 @@ margin-bottom: 30px;
     font-weight: 400;
 
 }
+
 .name{
 font-size: 18px;
 line-height: 130%!important;
