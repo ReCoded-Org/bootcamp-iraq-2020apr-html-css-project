@@ -758,6 +758,7 @@ body {
 
 .portfolio--image:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 
@@ -784,7 +785,7 @@ body {
 .modal-content {
     margin: auto;
     display: block;
-    max-width: 25%;
+    max-width: 30%;
 }
   
   /* Caption of Modal Image */
@@ -1626,7 +1627,7 @@ height: 330px;
     width: 175px;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient( to bottom left, rgba(97,115,241,0.51), rgba(254,119,74,0.5) );
+    background: linear-gradient( to bottom left, rgba(97,115,241,0.51), rgba(254,119,74,0.5));
 }
 .con:hover .overlay {
     opacity: 1;
