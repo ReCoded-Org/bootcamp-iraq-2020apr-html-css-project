@@ -110,6 +110,15 @@ body section {
 /* Sara end */
 
 /*--------------------------------------------------------- Shirin */
+.grid-section h2 {
+  font-size: 43px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  margin: 60px 0;
+}
+
 @keyframes slideInFromBottom {
   0% {
     transform: translateY(100%);
@@ -118,7 +127,7 @@ body section {
     transform: translateY(0);
   }
 }
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 638px) {
   .grid-container {
     width: 82%;
     height: auto;
@@ -135,20 +144,47 @@ body section {
     margin: 0 10px; /* to add space between each col-flex on left and right*/
   }
   .grid-item {
+    margin: 10px auto;
+  }
+}
+@media only screen and (min-width: 413px) and (max-width: 638px) {
+  .grid-container {
     width: 100%;
-    display: block;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
     flex: 1;
-    position: relative;
-    /*overflow: hidden; /* will hide anything that overflows the div width on hovering */
-    margin: 10px auto; /* to add a space between top & bottom for the images in one col-flex*/
   }
-  .insider img {
-    width: 100%;
-    height: 100%;
-    animation: 2s ease-out 0s 1 slideInFromBottom;
-    /* border: 7px solid white; */ /* removed the border and used margin instead because it causes a problems on hovering */
-    transition: transform 0.4s ease-in-out; /* used the transition on the img itself so the effect of the smooth movement will be on hover and when you un hover also */
+
+  .col-flex {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 100%;
+    margin: 0 10px;
   }
+  .grid-item {
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 413px) {
+  .grid-item {
+    margin: 10px;
+  }
+}
+
+.grid-item {
+  width: 100%;
+  display: block;
+  flex: 1;
+  position: relative;
+}
+.insider img {
+  width: 100%;
+  height: 100%;
+  animation: 2s ease-out 0s 1 slideInFromBottom;
+  transition: transform 0.4s ease-in-out;
 }
 
 .insider img:hover {
@@ -163,7 +199,7 @@ body section {
 
 .card-overlay {
   display: none;
-  pointer-events: none; /* make the top layer transparent to allow beneath layers to be clickable*/
+  pointer-events: none; /* make the top overlayer transparent to allow beneath layers to be clickable*/
   text-align: center;
   width: 100%;
   height: auto;
@@ -175,7 +211,7 @@ body section {
 }
 .card-overlay h3 {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   margin-bottom: 20px;
   font-family: "Montserrat";
@@ -191,14 +227,23 @@ body section {
 .insider:hover .card-overlay {
   display: block;
 }
+.grid-btn {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.btn {
+  margin: 0.375rem;
+  padding: 0.84rem 2.14rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: 4px;
+  font-family: "Montserrat";
+  background-color: #294cff;
+  color: #ffffff;
+}
 /* Shirin end */
 
 /* ------------------------------------------------------------------------Ahmed */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 .text-padding {
   padding: 60px;
 }
