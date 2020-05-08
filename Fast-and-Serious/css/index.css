@@ -110,6 +110,7 @@ body {
     width: 24px;
     height: 1.8px;
     margin: 3.5px 0;
+    transition: all .2s ease-in-out;
 }
 
 /*////////////// Header end /////////////////*/
@@ -402,9 +403,10 @@ body {
     }
     #hamburger-menu {
         display: flex;
-        flex-flow: column nowrap;
+        flex-direction: column;
         cursor: pointer;
     }
+
     #navbar {
         z-index: 4000;
         position: absolute;
@@ -417,10 +419,58 @@ body {
         justify-content: space-evenly;
         align-items: center;
         display: none;
+        transform-origin: top;
+        animation: dropdown-anim .7s ease-in-out forwards;
     }
+
+    @keyframes dropdown-anim {
+        0% {
+            width: 0;
+            height: 0;
+            opacity: 0;
+            border-radius: 0 0 0 50%;
+        }
+        50% {
+            width: 245px;
+            height: 310px;
+            opacity: 1;
+        }
+        100% {
+            width: 235px;
+            height: 300px;
+            border-radius: 0 0 0 10px;
+        }
+    }
+
     #nav-items-container ul {
         flex-direction: column;
+        visibility: hidden;
+        animation: navbar-items-dropdown .4s ease-in-out forwards .51s;
     }
+    .fa-search {
+        visibility: hidden;
+        animation: navbar-items-dropdown .35s ease-in-out forwards 1.2s;
+    }
+    .fa-twitter {
+        visibility: hidden;
+        animation: navbar-items-dropdown .35s ease-in-out forwards .9s;
+    }
+    .fa-facebook-f {
+        visibility: hidden;
+        animation: navbar-items-dropdown .35s ease-in-out forwards .6s;
+    }
+
+    @keyframes navbar-items-dropdown {
+        0% {
+            visibility: hidden;
+            transform: scale(.6);
+        }
+        100% {
+            visibility: visible;
+            transform: scale(1);
+        }
+    }
+
     #decorative-text {
         margin-left: -100px;
         margin-top: -45px;

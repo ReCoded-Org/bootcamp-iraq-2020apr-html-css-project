@@ -60,16 +60,45 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
+function close_dropdown(){
+  document.getElementById("hamburger-layer1").style.display = "block";
+  document.getElementById("hamburger-layer2").style.transform = "rotate(0)";
+  document.getElementById("hamburger-layer2").style.marginTop = "3.5px";
+  document.getElementById("hamburger-layer3").style.transform = "translate(0, 0)";
+  document.getElementById("navbar").style.display = "none";
+}
+
+function open_dropdown(){
+  document.getElementById("hamburger-layer1").style.display = "none";
+  document.getElementById("hamburger-layer2").style.transform = "rotate(90deg)";
+  document.getElementById("hamburger-layer2").style.marginTop = "10px";
+  document.getElementById("hamburger-layer3").style.transform = "translate(0, -9px)";
+  document.getElementById("navbar").style.display = "flex";
+}
+
 var clicked = false;
 function show_menu(){
   if (!clicked){
     clicked = true;
-    document.getElementById("navbar").style.display = "flex";
+    open_dropdown();
     return;
   }
   if (clicked){
     clicked = false;
-    document.getElementById("navbar").style.display = "none";
+    close_dropdown();
     return;
   }
 }
+
+function check_viewport(x) {
+  if (x.matches) {
+    close_dropdown();
+  } else {
+    document.getElementById("navbar").style.display = "flex";
+  }
+}
+
+var x = window.matchMedia("(max-width: 1024px)")
+check_viewport(x)
+x.addListener(check_viewport)
+
