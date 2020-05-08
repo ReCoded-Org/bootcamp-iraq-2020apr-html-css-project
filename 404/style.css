@@ -123,16 +123,18 @@
     color: white;
    font-weight: 600;
 }
-.menu-button div{
-    float: right;
+.menu-button{
     display: none;
+}
+.menu-button div{
     width: 35px;
     height: 5px;
     background-color: black;
     margin: 6px 0;
+  
 }
-@media screen and (max-width: 1000px) {
-    .menu-button div{
+@media screen and (max-width: 10024px) {
+    .menu-button {
         display: block;
       }
       .menu-button .dropdown a{
