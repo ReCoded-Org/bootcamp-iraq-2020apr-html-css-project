@@ -1,0 +1,319 @@
+
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+}
+
+   
+/* this is the color of the contacts head the bar with contacts*/
+.thesection{
+    background: #fbfbfb;
+    margin-top: 3rem;
+}
+
+.contacts-head{
+    
+    margin:0 auto;
+    display:flex;
+ justify-content: space-between;
+    font-family: 'roboto';
+    height:150px;
+   
+    
+}
+.text__head{
+    margin:50px 100px;
+    display: inline;
+    color: #3f3d56;
+  
+}
+.home{
+    cursor: pointer;
+    color:lightsteelblue
+}
+.home:hover{
+text-decoration: none;
+}
+.contact{
+    color:#898989;
+}
+/*overwrite the form with css  to change the border of the input and the size */
+
+.form-control{
+ 
+ 
+ border-radius: 25px;
+ padding:10px;
+
+}
+
+/*this padding will control the space between the name and surname*/
+
+.col{
+    padding:4px !important;
+}
+
+
+
+label::after{
+content:" ☑️";
+}
+/* it is the container of the text in the center */
+.text{
+    display:flex;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/*the design of the text to make the text centered and adjust the font properties */
+.text__design{
+    text-align:center;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+    color: #3f3d56;
+
+}
+/*the message box */
+textarea{
+    
+    border-radius: 25px;
+   
+    padding: 20px;
+    
+    
+}
+.table-container{
+    width:50%;
+   margin:0 auto;
+   
+}
+
+/* the Email input size differes from the the size of the name and the surname thats why we gave it different width in the id*/
+
+
+
+
+/*the red text - we can help */
+.color__text{
+    color:red;
+    font-style: italic;
+    font-family:Philosopher;
+}
+/*the details a bout the map link and the size of it */
+.map{
+    width:100%;
+    margin-top:100px;
+    height:700px;
+   
+}
+
+
+:root {
+    
+    --main-ftr-color: #3f3d56;
+    --text-color: #bebbdc;
+    --link-hvr-color:#ee2c35;
+}
+.col-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    min-height: 60vh;
+    background-color: var(--main-ftr-color);
+}
+
+footer.col {
+    margin-top: 6rem;
+}
+
+.copyright {
+    margin-top: 3rem;
+}
+
+.logo-img {
+    margin-bottom: 1rem;
+}
+
+.footer-col-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+.col-list-item {
+    color:var(--text-color);
+    margin-bottom: 0.3rem; 
+}
+
+.col-list-link{
+    color: var(--text-color);
+}
+
+.col-list-link:hover {
+    text-decoration: none;
+    color: var(--link-hvr-color) ;
+    transition: .4s all ease-in-out;
+}
+
+.copyright {
+    font-size: 12px;
+    color: var(--text-color);
+}
+
+.icon {
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+}
+
+footer.row {
+    margin: 0 auto;
+}
+
+
+/* responsive for the ipad */
+@media only screen and (max-width:768px){
+    .contacts-head{
+    
+        margin:0 auto;
+        display:inline;
+     
+        font-family: 'roboto';
+        text-align: center;
+        
+       
+       }
+       .text__head{
+           margin-left: 330px;
+       }
+    .text{
+        margin-top: 40px;
+        display:block;
+     width: 100%;
+     
+     
+    }
+    .text__design{
+        text-align:left;
+        font-weight: 900;
+        font-size: 42px;
+        font-style: normal;
+        
+        line-height: 52px;
+        margin-left:70px;
+        margin-top: 80px;
+        padding:3px;
+        
+       }
+       .color__text{
+        text-align: left;
+        display:block;
+    }
+    .table-container{
+    
+        width:80%;
+       
+    }
+    .form-control{
+        width: 600px !important;
+        margin-top:auto;
+        
+     }
+     .col2{
+         margin:2px;
+     }
+    .map{
+        width: 100%;
+    }
+    textarea{
+        width: 600px;
+    }
+    #Email{
+       width: 600px !important;
+    }
+
+}
+
+/*responsive for the iphonex*/
+
+@media only screen and (max-width:375px){
+    .contacts-head{
+        text-align: center;
+        margin-top:10px;
+       
+    }
+    .text__head{
+        text-align: center;
+        display: inline-block;
+        height: 10px;
+        margin-top:10px ;
+        margin-left:150px ;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 25px;
+        font-style: normal;
+    }
+    
+   .text{
+       margin-top: 40px;
+       display:block;
+    width: 100%;
+    
+    
+   }
+   .contacts-head{
+    
+    margin:0 auto;
+    display:inline;
+ 
+    font-family: 'roboto';
+    
+   
+   }
+   .text__design{
+    text-align:left;
+    font-weight: 900;
+    font-size: 42px;
+    font-style: normal;
+    line-height: 52px;
+    margin-left:50px;
+    margin-top: 80px;
+    padding:3px;
+    
+   }
+   .color__text{
+       text-align: left;
+       display:block;
+   }
+   
+   .table-container{
+    
+    width:80%;
+   
+}
+textarea{
+    width: 300px;
+}
+#Email{
+   width: 300px !important;
+}
+.form-control{
+    width: 300px !important;
+    margin-top:auto;
+    
+ }
+ .col2{
+     margin:2px;
+ }
+.map{
+    width: 100%;
+}
+}
+
