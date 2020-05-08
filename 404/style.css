@@ -49,8 +49,8 @@
 .container-position{
     width: auto;
     float: right;
-    margin-right: 2rem
-    text
+    margin-right: 2rem;
+    
 }
 .container-position a{
     margin-left: 20px;
@@ -128,12 +128,12 @@
 }
 .menu-button div{
     width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
+    height: 2px;
+    background-color: white;
+    margin: 10px 0;
   
 }
-@media screen and (max-width: 10024px) {
+@media screen and (max-width: 1024px) {
     .menu-button {
         display: block;
       }
@@ -143,6 +143,14 @@
       header nav a{
           display: block;
       }
+      .menu {
+          display: none;
+      }
+      .contain {
+        position: relative;
+        color: white;
+      }
+    
 }
     /* Sara end */
 
@@ -400,7 +408,6 @@
 }
 .containo {
     position: relative;
-    text-align: center;
     color: white;
   }
 
