@@ -192,7 +192,7 @@
 
       }
 
-      @media screen and (max-width: 1400px) and (min-width: 1025px){
+      @media screen and (max-width: 992px){
         .card-columns {
             -webkit-column-count: 2;
             -moz-column-count: 2;
@@ -201,7 +201,7 @@
         }
    }
 
-   @media (max-width: 1024px){
+   @media (max-width: 650px){
     .card-columns {
         -webkit-column-count:1;
         -moz-column-count: 1;
