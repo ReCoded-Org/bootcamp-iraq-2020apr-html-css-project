@@ -246,10 +246,13 @@ font-weight: 700!important;
 font-family: "Montserrat";
     color: #403f52;
 }
+/*responsive cards mobile*/
 
+@media only screen and (max-width: 375px){
 
-
-
+.card_cust{
+    width:20rem; }
+}
 
 
 
