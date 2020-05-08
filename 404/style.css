@@ -148,7 +148,7 @@
         margin-bottom: 20px;
         font-family: "Montserrat";
       }
-      .card p {
+      .card-overlay p {
         font-size: 13px;
         text-transform: uppercase;
         color: #fff !important;
