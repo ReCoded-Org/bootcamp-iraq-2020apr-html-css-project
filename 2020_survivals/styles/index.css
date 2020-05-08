@@ -1,0 +1,303 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
+*{
+	scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Storing some colors in variables */
+/* Storing some colors in variables */
+/* Storing some colors in variables */
+
+:root{
+    --main-ftr-color: #3f3d56;
+    --text-color: #bebbdc;
+    --link-hvr-color:#ee2c35;
+    --light-purple:rgb(127,125,171);
+    --dark-purple:rgb(64,63,85);
+}
+.navbar{
+    background: #fff;
+    opacity: 0.9;
+	transition: 0.5s;
+}
+nav .white{
+    background: rgb(243, 242, 242);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(250, 91, 91);
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(119, 115, 115) ;
+    padding-right: 2rem;
+    font-weight: bold;
+}
+.banner{
+    width: 100%;
+	height: 100vh;
+	background-image:url('../imgs/teamwork.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.banner:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background:rgb(58, 49, 58);
+    opacity: 0.5;
+}
+.container{
+    position: relative;  
+}
+.contentBox h1{
+    margin:14rem 3rem;
+	color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.contentBox small{
+    font-size:4rem ;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    color:rgb(221, 53, 53) ;
+}
+
+.sec1 {
+    padding: 100px 0;
+    background-color: rgb(228, 225, 225);
+    position: relative; 
+}
+.feature{
+    background-color: #fff;
+    margin-top: -250px ; 
+    z-index: 1; 
+    box-shadow: 8px 10px 8px  #aaaa; 
+}
+.card{
+    padding: 40px 10px;
+    text-align: left;
+    border: none;
+}
+.card-body h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(67, 67, 99);
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+.card-body p{
+    padding-bottom: 20px;
+    color: rgb(107, 103, 103);
+
+    
+}
+.card-body .btnD1{
+    background-color: rgb(243, 65, 65);
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+.card-body h3{
+    font-weight: bold;
+    color: rgb(67, 67, 99);
+    padding:20px 10px; 
+}
+.services{
+    padding: 100px 0;
+    position: relative;
+}
+
+.sec2{
+    background-color: rgb(228, 225, 225);
+    margin:0;
+}
+.sec2 h2{
+    margin-top: 30px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: rgb(67, 67, 99);
+}
+.sec2 p{
+    color: rgb(67, 67, 99);
+    font-style: italic;
+}
+.col-sm-6{
+    display: flex;
+}
+.card-services{
+    position: relative;
+    width: 90%;
+    height: 79vh;
+    margin-left: 30px;
+}
+.card a{
+    text-decoration: none;
+}
+.card-body .arrow{
+    font-size: 3rem;
+    color: rgb(211, 36, 36);
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 375px){
+    .contentBox h1{
+        font-size: 3rem;
+    
+    }
+    .contentBox  small{
+        font-size:3rem ;
+    }
+    .feature{
+        width: 90%;
+    }
+    .sec2 h2{
+        font-size: 30px;
+    }
+    .card-services{
+        margin-bottom: 30px;
+        min-height: 98vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .contentBox h1{
+        text-align: center;
+    }
+    .card-services{
+        margin-bottom: 30px;
+        height: 60vh;
+    }
+    .card-services p{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+.col-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    min-height: 60vh;
+    background-color: var(--main-ftr-color);
+}
+
+.col {
+    margin-top: 6rem;
+}
+
+.copyright {
+    margin-top: 3rem;
+}
+
+.logo-img {
+    margin-bottom: 1rem;
+}
+
+.footer-col-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+.col-list-item {
+    color:var(--text-color);
+    margin-bottom: 0.3rem; 
+}
+
+.col-list-link{
+    color: var(--text-color);
+}
+
+.col-list-link:hover {
+    text-decoration: none;
+    color: var(--link-hvr-color) ;
+    transition: .4s all ease-in-out;
+}
+
+.copyright {
+    font-size: 12px;
+    color: var(--text-color);
+}
+
+.icon {
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+
+
+
+/* STYLING DRIVEN TO DELIVER SECTION*/
+/* STYLING DRIVEN TO DELIVER SECTION*/
+/* STYLING DRIVEN TO DELIVER SECTION*/
+.driven-to-deliver-section{
+padding:3rem 0rem ;
+min-height: 75vh;
+color: var(--dark-purple);
+}
+.driven-to-deliver-row{
+
+    color: var(--dark-purple);
+}
+.driven-to-deliver-header h1{
+
+    color: var(--light-purple);
+}
+
+/* STYLING DRIVEN TO SUBSCRIBE SECTION*/
+/* STYLING DRIVEN TO SUBSCRIBE SECTION*/
+/* STYLING DRIVEN TO SUBSCRIBE SECTION*/
+
+.subscribe-section{
+    background: #3a354a url(http://jevelin.shufflehound.com/finances/wp-content/uploads/sites/26/2019/07/susbscribe-bg.jpg?id=553) !important;
+    min-height: 45vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3rem 0rem;
+    color: rgb(229, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-email-input{
+
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(238, 238, 238);
+    background-color: rgb(48, 47, 47);
+}
+.subscribe-email-input:focus{
+    color: white;
+    background-color: rgb(78, 78, 78);
+}
+/* STYLING OUR CLIENT SECTION*/
+/* STYLING OUR CLIENT SECTION*/
+/* STYLING OUR CLIENT SECTION*/
+.our-client-section{
+
+    min-height: 100vh;
+    padding: 3rem 0rem;
+    color: var(--dark-purple);
+}
+
