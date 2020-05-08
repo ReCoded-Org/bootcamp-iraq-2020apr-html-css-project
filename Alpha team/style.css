@@ -550,13 +550,7 @@ iframe {
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  color: #8d8d8d;
-  line-height: 1.7;
-  font-weight: 400;
-}
+
 
 .slide-addres {
   text-align: center;
@@ -772,7 +766,6 @@ body {
   margin-left: 25%;
   padding: 0 10px;
   left: radius 50%;
-  ;
   right: radius 50%;
 }
 
