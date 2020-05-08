@@ -1,14 +1,19 @@
 /* showcase styling */
+
+body {
+    font-family: "Montserrat";
+}
+
 :root {
     --white: #fff;
     --yellow: #ffbe0b;
     --grey: #50514f;
-    --montserrat-font: Montserrat;
+    --light-grey: #b8b6d3;
+  
 }
-.background-img {
+.background-img { 
     position: relative;
     height: 100vh;
-    overflow: hidden;
 }
 .background-img img {
     width: 100%;
@@ -16,7 +21,7 @@
     object-fit: cover;  
 }
 .img-text {
-    font-family: var(--montserrat-font);
+    font-family: "Montserrat";
     user-select: none;
     position: absolute;
     top: 10%;
@@ -74,24 +79,29 @@
     margin:2% 0% 5% 0%;
     
     }
-.paragrph h2{ 
-    font-size: 46px;        
-    font-weight: 700;
+    .paragrph h2{ 
+                
+        
+        margin-bottom: 70px;}
+
+    .paragrph h2,.paragrph2 h2{
     font-family: "Montserrat";
     color: #403f52;
-    margin-bottom: 70px;
+    font-size: 46px; 
+    font-weight: 900;
+    
     }
 .button{
     font-family: "Montserrat";
     text-align: center;
     line-height: 56px;
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top:15px;
+    padding-bottom:15px;
     padding-left: 36px;
     padding-right: 36px;
     
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 700;
     border-radius: 4px;
     background-color: #ffffff;
     color: #000000;
@@ -121,13 +131,16 @@
     margin-top: 20px;
 }
 .content{
+
+    font-size: 17px;
+   font-family: "Montserrat";
+
     font-size: 20px;
-    
-    
     font-family: "Montserrat";
+
     color: #9c9ab1;
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 200;
+    
     line-height: 30px;
 }
 .margin-down{
@@ -162,7 +175,7 @@ flex-wrap: wrap;
     }
 }
 /*responsive mobile*/
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) {
     .wrap{
         flex-wrap: wrap;
             }
@@ -185,6 +198,11 @@ flex-wrap: wrap;
     .img-text h1{
         font-size: 2.1rem;
     }
+    .ls-content{
+        text-align: center;
+        
+    }
+
 }
 
 /*animation   button*/
@@ -197,8 +215,8 @@ flex-wrap: wrap;
     
 }
 
-/* ahmad's branch*/
-.fas-check {
+/* mobile and labtop cards*/
+.fas-check ,.paragrph{
     color: #2D1DFF;
 }
 
@@ -217,6 +235,74 @@ flex-wrap: wrap;
     line-height: 1.9rem;
 }
 
+.ls-container {
+    position: relative;
+    
+
+}
+.section6{
+    margin: 150px 20px 150px 60px;
+     
+ }
+ .header2{
+     width:350px;
+     margin:30px 0px;
+ }
+ .Curabitur_aliquam{
+     width:370px;
+     margin-bottom: 30px;
+ }
+ 
+ .img_cust{
+     max-width: 100%;
+     min-height: 1px;
+     height: auto;
+     border-radius: 300px;
+     
+ }
+ 
+ .card_paragraph{
+     width:320px;
+     margin:25px 0px;
+ 
+ }
+ .container_img{
+ margin-top:50px;
+ }
+ .card_cust{
+    width: 45rem; height: 15rem;
+    
+    margin-left: 150px;
+    margin-bottom: 20px;
+ }
+
+.p2{
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500!important;
+    color: #2d1dff;
+}
+#color_cust{
+    background: #f9f9ff; 
+}
+.quets_cust{
+    font-size: 22px;
+    color: #b9b4fd;
+    margin:10px 0px;
+}
+.content_card_cust{
+    font-size: 16px;
+    color: #403f52;
+    font-weight: 400;
+
+}
+.name{
+font-size: 18px;
+line-height: 130%!important;
+font-weight: 700!important;
+font-family: "Montserrat";
+    color: #403f52;
+}
 
 
 
@@ -224,10 +310,48 @@ flex-wrap: wrap;
 
 
 
-
-
-
-
-
-
+.ls-img img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+.ls-content {
+    position: absolute;
+    top: 40%;
+    color: var(--white);
+    left: 5%;
+    font-size: 1.1rem;
+}
+.soical-links a {
+    transition: all 500ms;
+    color: var(--white);
+}
+.soical-links a:nth-child(1):hover {
+    color: #3B5998;
+}
+.soical-links a:nth-child(2):hover {
+    color: #1DA1F2;
+}
+.soical-links a:nth-child(3):hover {
+    color: #F76D2F;
+}
+.headings-text {
+    
+    line-height: 2.6;
+    font-weight: 600;
+}
+.list-text a {
+    line-height: 2.4;
+    font-size: 0.88rem;
+    color: var(--light-grey)
+    
+}
+.list-text a:hover {
+    color: var(--white);
+    text-decoration: none;
+}
+.ls-footer {
+    font-size: 0.9rem;
+    color: var(--light-grey);
+}
 
