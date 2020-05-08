@@ -124,7 +124,137 @@
 
 
     /* Shirin */
-
+    .grid-section h2 {
+        font-size: 43px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        margin: 60px 0;
+      }
+      
+      @keyframes slideInFromBottom {
+        0% {
+          transform: translateY(100%);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+      @media only screen and (min-width: 638px) {
+        .grid-container {
+          width: 82%;
+          height: auto;
+          display: flex;
+          flex-flow: row wrap;
+          flex: 1;
+        }
+        .col-flex {
+          width: 33.3333%;
+          height: auto;
+          display: flex;
+          flex-flow: column wrap;
+          flex: 1;
+          margin: 0 10px; /* to add space between each col-flex on left and right*/
+        }
+        .grid-item {
+          margin: 10px auto;
+        }
+      }
+      @media only screen and (min-width: 413px) and (max-width: 638px) {
+        .grid-container {
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-flow: row wrap;
+          flex: 1;
+        }
+      
+        .col-flex {
+          width: 50%;
+          height: auto;
+          display: flex;
+          flex-flow: row wrap;
+          flex: 1 1 100%;
+          margin: 0 10px;
+        }
+        .grid-item {
+          margin: 10px;
+        }
+      }
+      @media only screen and (max-width: 413px) {
+        .grid-item {
+          margin: 10px;
+        }
+      }
+      
+      .grid-item {
+        width: 100%;
+        display: block;
+        flex: 1;
+        position: relative;
+      }
+      .insider img {
+        width: 100%;
+        height: 100%;
+        animation: 2s ease-out 0s 1 slideInFromBottom;
+        transition: transform 0.4s ease-in-out;
+      }
+      
+      .insider img:hover {
+        filter: brightness(70%);
+        transform: scale(1.2);
+      }
+      .insider {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      
+      .card-overlay {
+        display: none;
+        pointer-events: none; /* make the top overlayer transparent to allow beneath layers to be clickable*/
+        text-align: center;
+        width: 100%;
+        height: auto;
+        left: auto;
+        top: 45%;
+        right: auto;
+        margin: 0;
+        padding: 0;
+      }
+      .card-overlay h3 {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        font-family: "Montserrat";
+      }
+      .card-overlay p {
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #fff !important;
+        opacity: 0.8;
+        transition: 0.3s all ease-in-out;
+        font-family: "Montserrat";
+      }
+      .insider:hover .card-overlay {
+        display: block;
+      }
+      .grid-btn {
+        margin-top: 50px;
+        margin-bottom: 150px;
+      }
+      .btn {
+        margin: 0.375rem;
+        padding: 0.84rem 2.14rem;
+        font-size: 0.85rem;
+        font-weight: 700;
+        border-radius: 4px;
+        font-family: "Montserrat";
+        background-color: #294cff;
+        color: #ffffff;
+      }
 
 
 
