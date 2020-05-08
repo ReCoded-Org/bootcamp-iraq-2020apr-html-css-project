@@ -132,27 +132,64 @@ body section {
     display: flex;
     flex-flow: column wrap;
     flex: 1;
+    margin: 0 10px; /* to add space between each col-flex on left and right*/
   }
   .grid-item {
     width: 100%;
     display: block;
     flex: 1;
+    position: relative;
+    /*overflow: hidden; /* will hide anything that overflows the div width on hovering */
+    margin: 10px auto; /* to add a space between top & bottom for the images in one col-flex*/
   }
-  .grid-item img {
+  .insider img {
     width: 100%;
     height: 100%;
     animation: 2s ease-out 0s 1 slideInFromBottom;
-    border: 7px solid white;
+    /* border: 7px solid white; */ /* removed the border and used margin instead because it causes a problems on hovering */
+    transition: transform 0.4s ease-in-out; /* used the transition on the img itself so the effect of the smooth movement will be on hover and when you un hover also */
   }
 }
 
-.grid-item:hover,
-.grid-item img:hover {
-  transition: transform 0.5s ease;
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
+.insider img:hover {
+  filter: brightness(70%);
+  transform: scale(1.2);
+}
+.insider {
+  width: 100%;
+  height: 100%;
   overflow: hidden;
+}
+
+.card-overlay {
+  display: none;
+  pointer-events: none; /* make the top layer transparent to allow beneath layers to be clickable*/
+  text-align: center;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: 45%;
+  right: auto;
+  margin: 0;
+  padding: 0;
+}
+.card-overlay h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+}
+.card-overlay p {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff !important;
+  opacity: 0.8;
+  transition: 0.3s all ease-in-out;
+  font-family: "Montserrat";
+}
+.insider:hover .card-overlay {
+  display: block;
 }
 /* Shirin end */
 
