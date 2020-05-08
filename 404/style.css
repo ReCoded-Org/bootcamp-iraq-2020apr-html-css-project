@@ -235,7 +235,7 @@
 
     /* Ahmed */
 .text-padding {
-    padding: 60px;
+    padding: 20px;
 }
 .font-Aaron {
     font-size: 36px;
@@ -359,8 +359,8 @@
     align-items: center;
     opacity: 0;
     transition: 0.3s all ease-in-out;
-    height: 96.5%;
-    width: 96.5%;
+    height: 97%;
+    width: 97%;
 }
 .containo {
     position: relative;
