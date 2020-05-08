@@ -314,8 +314,8 @@
 
     <!--Logos Slick Slider section - Ahmad Duhoki-->
 
-    <section class="conatiner-fluid">
-        <div class="d-flex justify-content-around slick-slider">
+    <section class="conatiner-fluid pl-4">
+        <div class="d-flex justify-content-around slick-slider pl-5">
             <div>
                 <img class="img-fluid" src="./images/logo1.png" alt="logo 1">
             </div>
@@ -454,27 +454,36 @@
                 delay: 10,
                 time: 3000
             });
-        });
-    </script>
 
-    <script>
-        $('.post-w').slick({
-            arrows: false,
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            autoplay: true,
-            autoplaySpeed: 4000,
-            dots: true,
-            responsive: [
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
+            $('.slick-slider').slick({
+                arrows: true,
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                dots: false,
+
+            });
+
+            $('.post-w').slick({
+                arrows: false,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                        }
                     }
-                }
 
-            ]
+                ]
+            });
+
         });
     </script>
 
