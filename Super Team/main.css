@@ -334,7 +334,7 @@ margin: 10px;
   padding: 0 !important;
 }
 .ctext{
-  font-size: 12px;
+  font-size: 15px;
 }
 /* The Modal (background) */
 .modal {
@@ -493,6 +493,7 @@ padding:0px 50px 0px 40px;
 .select-date-bg-img{
   position: relative;
   padding: 0 !important;
+  min-height: 100vh;
 }
 .text-block {
  position: absolute;
@@ -521,23 +522,6 @@ padding:0px 50px 0px 40px;
   box-shadow: none;
   border-color: tomato;
 }
-/*footer*/
-footer{
-    background-color:#363535;
-    color: white;
-    overflow: hidden;
-}
-.fot-padd{
- display: flex;
- flex-direction: row;
-}
-.fot-padd li{
-  list-style-type: none;
-  padding: 40px;
-  padding: 0 25px;
-}
-
-
 /* map */
 .myform{
   padding: 0 !important;
@@ -567,4 +551,18 @@ footer{
 
 .rest-addres{
   color: #646464;
+}
+/*footer*/
+footer{
+    background-color:#363535;
+    color: white;
+}
+.fot-padd{
+ display: flex;
+ flex-direction: row;
+}
+.fot-padd li{
+  list-style-type: none;
+  padding: 40px;
+  padding: 0 25px;
 }
