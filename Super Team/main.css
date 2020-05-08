@@ -283,6 +283,7 @@ margin: 10px;
   font-weight: 200 !important;
   opacity: 90%;
   color: gray;
+  font-style: italic;
 }
 #lorem{
   opacity: 95%;
@@ -386,4 +387,35 @@ footer{
 .fot-padd li{
   list-style-type: none;
   padding: 0 25px;
+}
+
+
+/* map */
+.myform{
+  padding: 0 !important;
+}
+.formh1{
+  font-family: "Cormorant Garamond";
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.availabletime{
+  padding: 140px 0;
+  font-family: Montserrat;
+}
+
+.hrdiv{
+  margin: 0 auto;
+}
+
+.hrline{
+  background-color: #fff;
+  border-top: 1px dashed #8c8b8b;
+  opacity: 50%;
+}
+
+.rest-addres{
+  color: #646464;
 }
