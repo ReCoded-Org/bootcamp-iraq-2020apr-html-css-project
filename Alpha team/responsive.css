@@ -12,6 +12,12 @@
   }
 }
 
+@media only screen and (max-width: 991px) {
+  #header-btn-container {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .about-heading-container {
     width: 75%;

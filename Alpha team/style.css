@@ -6,7 +6,10 @@
 
 }
 
-
+a {
+  text-decoration: none;
+  color: white;
+}
 
 :root {
   --main-color: hsl(265, 98%, 55%);
@@ -608,5 +611,335 @@ body {
 }
 
 /* Ahmed start */
+.buy-btn {
+
+  background-color: #7D1EFF;
+  /* Green */
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buy-btn:hover {
+  background: #AA6DFF;
+}
+
+.header-properties {
+  background-color: black;
+  opacity: .9;
+  color: gray;
+  height: 100vh;
+  font-size: 16px;
+}
+
+.dim {
+  max-width: 550px;
+}
+
+.font-size-header {
+  font-size: 61px;
+}
+
+.font-size-header div {
+  color: blueviolet;
+  display: inline;
+  padding: 0.25rem;
+}
+
+.nav-proper {
+  opacity: 0.9;
+  color: inherit;
+  z-index: 22;
+  padding: 4% 3%;
+}
+
+.my-picture-dimension {
+  margin-top: 4%;
+  margin-right: -10%;
+}
+
+.my-text-dimension {
+  margin-right: -10%;
+}
+
+/* header section */
+
+
+.div-header-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#header-btn-container {
+  width: 220px;
+  display: flex;
+  width: 220px;
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding-right: 20%;
+  padding-top: 2%;
+}
+
+.header-list>li {
+  padding: 0 1.5%;
+}
+
+
+
+
+.icon-shoping {
+  position: relative;
+  color: white;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.247);
+}
+
+
+
+.orders-number {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 1px;
+  right: -18px;
+  color: white;
+  background: #7d1eff;
+  width: 20px;
+  height: 15px;
+  border-radius: 30%;
+}
+
+.button {
+  background-color: #7d1eff;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  right: 17%;
+  top: 10%;
+  border-radius: 20%;
+}
+
+.span-header-watch {
+  color: blueviolet;
+  font-size: inherit;
+}
+
+.text-gray {
+  color: #A1A1A1;
+}
+
+.color-nav {
+  background-color: black;
+  opacity: .9;
+}
+
+
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+.cart-icon {
+  color: cornsilk;
+
+}
+
+.anchor-cart {
+  margin-left: 20%;
+  margin-right: 3%;
+}
+
+.buy-shop {
+  margin: 0 20px;
+  margin-left: 25%;
+  padding: 0 10px;
+  left: radius 50%;
+  ;
+  right: radius 50%;
+}
+
+.watch {
+  height: 45vh;
+  width: 40vw;
+}
+
+.big-section-header {
+  position: absolute;
+  top: 5%;
+}
+
+/* footer section */
+footer {
+  width: 100vw;
+
+  overflow-x: hidden;
+}
+
+div.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  background-color: #7d1eff;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.social-media-icons ul.social-media-icons-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.social-media-icons-list>li {
+  padding: 10px;
+}
+
+ul.social-media-icons-list>li a i {
+  color: white;
+}
+
+
+.background-footer {
+  background-color: #363636;
+}
+
+.big-container-cards-footer {
+  padding-top: 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: aliceblue;
+}
+
+h3#jelevin {
+  font-weight: bold;
+  text-align: left;
+  font-size: 40px;
+}
+
+#last-line-first-card {
+  float: left;
+}
+
+.ul-footer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-cards {
+  background-color: inherit;
+  width: 399.3px;
+  height: 240px;
+  padding: 35px 15px 0;
+  text-align: center;
+}
+
+.p-fonts-footer-sections {
+  color: #A1A1A1;
+  font-weight: 16px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.a-fonts-footer-sections {
+  color: white;
+  font-weight: 16px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.a-fonts-footer-sections:hover {
+  text-decoration: none;
+  opacity: 2;
+  color: #A1A1A1;
+}
+
+
+h6.p-fonts-footer-sections {
+  color: #f1f1f1;
+  ;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  align-self: center;
+}
+
+#far-header {
+  padding-right: 50px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.ul-footer>li {
+  margin-top: 10px;
+  align-self: flex-start;
+  padding-left: 80px;
+}
+
+#last-line-in-footer {
+  background-color: inherit;
+  width: 960px;
+  height: 128;
+  text-align: center;
+}
+
+.last-div-footer {
+  margin: 50px 0;
+}
+
+.icons-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.icons-list>li {
+  padding: 0 10px;
+}
+
+/* it does not work */
+
+.icon-color {
+  color: lightgray;
+  opacity: 0.5;
+}
+
+.icon-color:hover {
+  opacity: 2
+}
 
 /* Ahmed End */
