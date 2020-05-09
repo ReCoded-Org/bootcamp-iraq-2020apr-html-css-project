@@ -695,7 +695,6 @@ body {
     .services-h3 {
         font-size: .9rem;
     }
-    
     .services-p {
         font-size: .75rem;
     }
@@ -743,6 +742,7 @@ body {
     width: 100%;
     max-width: 100%;
     margin-top: -290px !important;
+    padding: 0 !important;
 } 
 .portfolio-images div {
     overflow: hidden;
@@ -958,318 +958,276 @@ body {
 
 /*////////////// Bawan's part Start ///////////////*/
 
-.master{    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-}
-.master-crew{padding-top: 100px;
-   
-} 
-.master-crew-title{
-    width: 615px;
-    height: 399px;
-    background-image: url("../images/ma2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-.master-crew-container{
-    box-sizing: border-box;
-    padding-left: 15px;
-    padding-right: 15px;
+.master-crew-section {
+    height: 1200px;
+    max-height: 1200px;
     width: 100%;
-    width: 100%;
-    max-width: 540px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+    background-color: white;
+}
 
+.wrapper-all-master-crew {
+    width: 80%;
+    height: 95%;
+    max-height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly;
+    padding : 10px;
 }
-.space{
-    height: 100px;
+.crew-card-img {
+    position: absolute;
+    top: 0;
+    left: -10px;
 }
-.master-crew-item1{
-   
-    font-family: "Poppins";
-    color: #606060;
-    font-weight: 300;
-    font-size: 14px;
-    width: 540;
-    height: 120px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.master-crew-card-wrapper {
+    width: 530px;
+    height: 300px;
+    border: none !important;
+    border-radius: 10px !important;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(237,237,237,1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(237,237,237,1);
+    box-shadow: 0px 0px 30px 0px rgba(237,237,237,1);
+    overflow: hidden;
 }
-.master-crew-item1 h2{
-    font-size: 60px;
-    line-height: 60px;
-    color: #363636;
-    text-align: left;
-    display: inline-block;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.master-crew-card-body {
+    padding-left: 55% !important;
+    z-index: 5;
 }
-.master-crew-item2{
-    width: 540px;
-    height: 84px;
-    text-align: left;
+.master-crew-card-body h5 {
+    color: var(--dark-gey);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 27%;
+}
+.master-crew-card-body p:nth-child(2){
+    color: #08d7bd !important;
+    font-size: 1rem;
+    font-weight: normal;
     
 }
-.master-crew-item2 span{
-    display: block;
-    font-size: 22px;
-    line-height: 28px;
+.master-crew-card-body p:nth-child(3){
+    color: #737373;
+    font-size: 0.9rem;
+    font-weight: normal;
     font-weight: 300;
-    color: #363636;
+    padding-top: 8%;
 }
-
-.team-skill{
-    width: 560px;
-    height: 330px;
-    float: right;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    border-radius: 10px 10px 10px 10px ;
-    margin-top: 6%;
-
-}
-.team-skill-container{
-    box-sizing: border-box;
- 
-    width: 100%;
-}
-
-#designer{
-    width:485px;
-    height:380px;
-    display: flex;
-}
-
-.join{
-    background-image: url("../images/designer.jpg");
-    background-position: center ;
-    background-repeat: no-repeat;
+.master-crew-title-wrapper {
+    background-image: url(../images/ma-bg.jpg);
+    background-position: 0 -70px;
     background-size: cover;
-    opacity: 0.5;
-    width: 270px;
-    height: 330px;
-    display: flex;
-    flex-direction: column;
-    align-content: center center;
-    margin-left: 0;
-    padding-left:0 ;
-  
- }
-
- .join-button{
-    width: 136px;
-    height: 53px;
-    border-radius: 40px;
-    background-color: #ffffff;
-    margin: auto auto;
-    background-size: cover;
-    cursor: pointer;
-    opacity: 1;
-    display: flex;
- } 
-
-.join-button  a{
-    font-size: 22px;
-    color: #5d42d3;
-    margin-left: 18px;
-    align-self: center ;
-    text-decoration: none;
-    opacity: 1;
+    box-shadow: none !important;
+    color: var(--dark-gey) !important;
 }
-
-.discription{
-display: block;
-width: 270px;
-height: 330px;
-}
-.discription h2{
+.master-crew-title {
+    font-size: 3.8rem;
+    font-weight: 800;
+    line-height: 3.7rem;
+    margin-top: 25px;
     margin-left: 20px;
 }
-.dic-1-header{
-    margin-top: 120px;
+.master-crew-below-title {
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-right: 140px;
+    margin-left: 20px;
 }
-
-.dic-2-header{
-    font-size: 16px;
-    font-weight: 400;
-    color: #00b49d;
-    margin-left: 12px;
-    
-}
-.dic-3-header{
-    font-size: 14px;
-    font-weight: 200!important;
-    color: #606060;
-    margin-left: 12px;
-}
-.member1{
-    background-image: url("../images/member1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
-    opacity: 1;
-}
-
-.member2{
-    background-image: url("../images/member2.jpg");
-    background-position: center ;
-}
-@-webkit-keyframes fadeInRight {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(100%, 0, 0);
-      transform: translate3d(100%, 0, 0);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  @keyframes fadeInRight {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(100%, 0, 0);
-      transform: translate3d(100%, 0, 0);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  .fadeInRight {
-    -webkit-animation-name: fadeInRight;
-    animation-name: fadeInRight;
-  }  
-
-  .meet-team-container{
-
-      width: 100%;
-      height: 59.6px;
-  }
-  .meet-team-btn{
-    width: 180px !important;
-    height: 52px;
-        border-radius: 40px;
-        background-color: #00b49d;
-        margin: auto auto;
-        background-size: cover;
-        cursor: pointer;
-        display: flex;
-        margin-top: 6%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      
-  }
-  .meet-team-btn  a{
-    font-size: 16px;
-    color: #ffffff;
-    align-self: center ;
-    text-decoration: none;
-    opacity: 1;
-    font-weight:700 ;
-}
-
-.meet-team-btn  a:hover {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-
-@media (max-width:320){
-    .master{
-        flex-direction: column;
-    }
-
-}
-
-@keyframes fadeInLeft {
-    0% {
-       opacity: 0;
-       transform: translateX(-20px);
-    }
-    100% {
-       opacity: 1;
-       transform: translateX(0);
-    }
- }  
-
- @-webkit-keyframes fadeInLeft {
-    0% {
-       opacity: 0;
-       -webkit-transform: translateX(-20px);
-    }
-    100% {
-       opacity: 1;
-       -webkit-transform: translateX(0);
-    }
- }
- 
- @keyframes fadeInLeft {
-    0% {
-       opacity: 0;
-       transform: translateX(-20px);
-    }
-    100% {
-       opacity: 1;
-       transform: translateX(0);
-    }
- }
- 
-.fadeInLeft {
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
-} 
-
-.animator{
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
-.logo-slider{
-    width:90%;
-    height: 200px;
-    margin: 50px auto;
-    overflow: hidden;
-    align-self: center;
-}
-
-.logo-slider figure img{
-    width: 8%;
-    height: 8%;
-    float: left;
-}
-
-.logo-slider figure{
-    position: relative;
-    width: 100%;
-    margin: 0px;
-    right:-120%;
-    animation: logo 10s infinite linear ;
+.master-crew-btn-purple,
+.master-crew-btn {
+    width: 180px;
+    height: 60px;
+    background-color: #08d7bd;
+    border-radius: 40px;
+    cursor: pointer;
     display: flex;
-    justify-content:space-around;
+    align-items: center;
+    justify-content: center;
 }
-
-@keyframes logo{
-    0%{right:-120; visibility: visible;}
-    98%{right:110%;}
-    99%{right:120%; visibility: hidden;} 
-    100%{right:0;  visibility: hidden;}
+.master-crew-btn-purple a:hover,
+.master-crew-btn-purple a,
+.master-crew-btn a:hover,
+.master-crew-btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.master-crew-btn-purple {
+    width: 132px;
+    height: 53px;
+    background-color: white;
+    z-index: 5;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    transition: all .4s ease-in-out;
+}
+.master-crew-btn-purple a {
+    color: var(--purple);
+}
+.master-crew-btn-purple:hover {
+    background-color: var(--purple);
+}
+.master-crew-btn-purple:hover a {
+    color: white;
+}
+@media only screen and (max-width: 1330px){
+    .wrapper-all-master-crew {
+        width: 90% !important;
+    }
+    .crew-card-img {
+        left: 0;
+        max-width: 50%;
+        height: 100%;
+        max-height: 100%;
+    }
+    .master-crew-card-wrapper {
+        width: 570px;
+        height: 260px;
+    }
+    .master-crew-card-body p:nth-child(3){
+        font-size: 0.8rem;
+    }
+    .master-crew-title-wrapper {
+        background-position: -30px -50px;
+        background-size: 500px;
+    }
+    .master-crew-title {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        margin-left: 10px;
+    }
+    .master-crew-below-title {
+        font-size: 1.1rem;
+        margin-left: 10px;
+        margin-right: 60px;
+    }
+    .master-crew-btn-purple {
+        width: 126px;
+        height: 48px;
+        left: 8%;
+    }
+    .master-crew-card-body h5 {
+        margin-top: 18%;
+    }
+    .master-crew-card-body p:nth-child(3){
+        padding-top: 5%;
+    }
+}
+@media only screen and (max-width: 795px){
+    .crew1-wrapper,
+    .crew2-wrapper {
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    .master-crew-section {
+        height: 1550px;
+        max-height: 1550px;
+    }
+    .wrapper-all-master-crew {
+        height: 100%;
+        max-height: 100%;
+    }
+    .crew1-wrapper div:nth-child(2),
+    .crew2-wrapper div:nth-child(2){
+        margin-top: 6%;
+    }
+    .master-crew-card-wrapper {
+        width: 530px;
+        height: 300px;
+    }
+    .master-crew-card-body p:nth-child(3){
+        font-size: 0.9rem;
+    }
+    .master-crew-title-wrapper {
+        background-position: 0 -50px;
+        background-size: 600px;
+        background-repeat: no-repeat;
+    }
+    .master-crew-title {
+        margin-top: 15%;
+    }
+    .master-crew-below-title {
+        font-size: 1.2rem;
+        margin-right: 138px;
+    }
+    .master-crew-card-body h5 {
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-width: 585px){ 
+    .crew1-wrapper,
+    .crew2-wrapper {
+        width: 100%;
+    }
+    .master-crew-card-wrapper {
+        width: 90%;
+        height: 270px;
+        margin: auto;
+    }
+    .wrapper-all-master-crew {
+        width: 95% !important;
+        padding-right: 0;
+        padding-left: 0; 
+    }
+    .master-crew-below-title {
+        font-size: 1rem;
+        margin-right: 20px;
+    }
+    .master-crew-card-body h5 {
+        margin-top: 9%;
+    }
+    .crew-card-img {
+        transform: scale(1.2);
+        left: -20px;
+        top: 20px;
+    }
+    .master-crew-card-body p:nth-child(3){
+        font-size: 0.7rem;
+        padding-top: 0%;
+    }
+}
+@media only screen and (max-width: 375px){ 
+    .master-crew-btn-purple {
+        width: 100px;
+        height: 42px;
+        left: 5%;
+    }
+    .master-crew-btn-purple a {
+        font-size: .7rem;
+    }
+    .master-crew-title {
+        font-size: 3.1rem;
+        line-height: 3.1rem;
+        margin-left: 5px;
+    }
+    .master-crew-title-wrapper {
+        background-position: -40px -50px;
+        background-size: 480px;
+    }
+    .master-crew-card-wrapper {
+        height: 250px;
+    }
+    .master-crew-card-body p:nth-child(3){
+        color: var(--dark-gey);
+    }
+    .master-crew-btn {
+        width: 140px;
+        height: 50px;
+    }
+    .master-crew-card-body {
+        padding-left: 52% !important;
+    }
+    .crew2-wrapper .master-crew-card-body h5 {
+        margin-top: 0%;
+    }
 }
 
 .subscribe{
@@ -1368,7 +1326,7 @@ height: 330px;
 }
 .Moh-Section1 {
     background-color: #5B40CF;
-    margin: 150px auto;
+    margin: 0 auto;
     overflow-y: hidden !important;
 }
 .card .card-text {
