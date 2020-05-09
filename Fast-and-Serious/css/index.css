@@ -473,7 +473,7 @@ body {
 
     #decorative-text {
         margin-left: -100px;
-        margin-top: -45px;
+        margin-top: 40px;
     }
     #website-name-all {
         font-size: 65px;
@@ -485,6 +485,11 @@ body {
     #landing-section {
         height: 60vh;
         max-width: 100%;
+    }
+}
+@media only screen and (max-width: 800px){
+    #decorative-text {
+        margin-top: -45px;
     }
 }
 @media only screen and (max-width: 650px){
@@ -1230,6 +1235,173 @@ body {
     }
 }
 
+
+
+.our-clients-section {
+    height: 1100px;
+    max-height: 1100px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/bg-our-clients.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-clients-section-wrapper {
+    color: var(--dark-gey);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+}
+.our-clients-section-wrapper h2 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.our-clients-section-wrapper > p {
+    font-weight: 300;
+    margin-bottom: 15%;
+}
+
+.our-clients-card {
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 10px !important;
+}
+
+.our-clients-card-body {
+    height: 30% !important;
+    max-height: 30% !important;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center!important;
+    align-items: center !important;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 0 10% !important;
+    color: #585858;
+    text-align: center;
+    margin-top: 5%;
+}
+.our-clients-card-body span {
+    font-size: 1.5rem;
+    padding: 0 5%;
+}
+
+.our-clients-card img {
+    width: 92px;
+    height: 92px;
+}
+
+.green-box-our-clients {
+    background-color: #08D7BD;
+    height: 92px;
+    max-height: 92px !important;
+    width: 286px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.green-box-p-wrapper {
+    height: 100%;
+    width: 100%;
+    color: white;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.green-box-p-wrapper p:nth-child(1) {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.green-box-p-wrapper p:nth-child(2) {
+    font-size: 0.9rem;
+}
+
+
+.logo-wrapper-our-clients {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly !important;
+    align-items: center;
+}
+
+.arrows-our-clients {
+    margin-top: 4%;
+}
+
+.fa-chevron-right,
+.fa-chevron-left {
+    color: darkgray;
+    font-size: 1.9rem;
+}
+@media only screen and (max-width: 1024px){
+    .our-clients-section-wrapper { 
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 800px){ 
+    .our-clients-card-body {
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .our-clients-section-wrapper { 
+        width: 90%;
+    }
+    .our-clients-section-wrapper h2 {
+        font-size: 2.4rem;
+    }
+    .our-clients-card-body {
+        font-size: 0.65rem;
+        padding: 0 0 !important;
+    }
+    .our-clients-card-body p {
+        margin: 0 !important;
+    }
+    .our-clients-card {
+        justify-content: space-evenly !important;
+    }
+    .our-clients-card-body span {
+        font-size: 1.1rem;
+        padding: 0 3%;
+    }
+    .green-box-our-clients {
+        width: 220px;
+        height: 92px;
+    }
+    .logo-wrapper-our-clients img {
+        width: 40px;
+
+    }
+    .our-clients-section {
+        height: 850px;
+        max-height: 850px;
+    }
+    .green-box-p-wrapper p:nth-child(2) {
+        font-size: 0.6rem;
+    }
+}
+
 .subscribe{
     width: 100vw !important;
     height: 400px;
@@ -1343,7 +1515,6 @@ body {
     height: 200px;  
     display: block;
 }
-
 .empty-space-med {
     height: 25px;
     display: block;
@@ -1352,7 +1523,6 @@ body {
     height: 50px;
     display: block;
 }
-
 .card-group .card {
     margin-bottom: 0px;
     border: none !important;
