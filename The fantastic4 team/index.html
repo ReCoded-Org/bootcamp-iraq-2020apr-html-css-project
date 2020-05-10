@@ -2,127 +2,544 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fantastic 4</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing2</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" href="./animate.css">
+  <link rel="stylesheet" href="./bootstrap//css//bootstrap.min.css" >
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
 </head>
-
 <body>
-    <!-- Event time line -->
-    <section>
-        <div class="tl-margin">
-        <div class=timeline-title>
-            <h2>Event <b>time line</b></h2>
-            <p>
-                Phasellus elementum diam arcu, quis scelerisque augue consectetur sit amet
-            </p>
+  
+   <!--Neven part-->
+  <header class="home-background-img">
+  
+    <!-----our navbar-------->
+    <nav  id="nav"  class="navbar navbar-expand-lg navbar-light  fixed-top">
+      <a  class="navbar-brand" href="https://jevelin.shufflehound.com/hello/"><img src="./images/logo.png" id="logo" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item ">
+            <a class="nav-link " href="#Home">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " href="#About">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " href="#who's speaking">who's speaking?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Schedule">schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="#location">location</a>
+            </li>
+            <li class="nav-item" id="icon">
+              <a class="nav-link " href="#"><i class="fa fa-twitter" ></i></a>
+            </li>
+            <li class="nav-item" id="icon">
+              <a class="nav-link  " href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="nav-item" id="icon">
+              <a class="nav-link " href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+      </div>
+    </nav>
+  </header>  
+
+  <!-----------------------home section---------->
+  <section class="container-fluid home-background-img" id="Home">
+     <div class="container neven">
+     
+    <div class="row">
+      <div class="col-md-12">
+      <h1 class="display-3 text-weight-bold text-white text-center animated bounceInLeft ">Jevelin <b>landing page</b>  event </h1>
+      <p class="lead  text-white text-center animated bounceInLeft">Send us your e-mail & we will save you a seat!</p>
+    </div>
+    </div>
+    <div class="row">
+      <form action="" class="mt-5">
+        <input class="input" type="email" placeholder="Enter your email" required="required"><br>
+        <input class="input" type="submit" value="Subscrib Now">
+      </form>
+    </div>
+
+   
+    <div class="row ">
+      <svg  class="bi bi-clock " width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color: gray;">
+        <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm8-7A8 8 0 110 8a8 8 0 0116 0z" clip-rule="evenodd"/>
+        <path fill-rule="evenodd" d="M7.5 3a.5.5 0 01.5.5v5.21l3.248 1.856a.5.5 0 01-.496.868l-3.5-2A.5.5 0 017 9V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+      </svg>
+    </div>
+    <div class="row">
+      <div class="countdown">
+        <span>oo</span>
+        <p>Weeks</p>
+      </div>
+      <div class="countdown">
+        <span>oo</span>
+        <p>Days</p>
+      </div>
+      <div class="countdown">
+        <span>oo</span>
+        <p>Hours</p>
+      </div>
+      <div class="countdown">
+        <span>oo</span>
+        <p>Minutes</p>
+      </div>
+      <div class="countdown">
+        <span>oo</span>
+        <p>Seconds</p>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!------------this is for changing background on scroll-->
+                                  
+  <script type="text/javascript">
+
+     var nav=document.getElementById('nav');
+    window.onscroll=function(){
+     if(window.pageYOffset>10){
+    
+      nav.classList.add('scroll');
+     }
+    else{
+      nav.classList.remove('scroll');
+    }
+    }
+    
+    $(function () { 
+  $(window).scroll(function () {
+      if ($(this).scrollTop() > 5) { 
+          $('.navbar .navbar-brand img').attr('src','./images/logo2.png');
+          
+      }
+      else { 
+          $('.navbar .navbar-brand img').attr('src','./images/logo.png');
+      }
+  })
+});
+
+  </script>
+
+ 
+<!--Rand part-->
+<section>
+
+  <div class="container">
+    <p style="opacity: 0% ;">"</p>
+    <p style="opacity: 0% ;">"</p>
+
+    <p class="rand-title-event"><span class="size-30">What you need to know <span class="size-36"><strong>about event
+          </strong></span></span></p>
+    <hr></br>
+    <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sem eget arcu
+      pulvinar porta sed vel sem. Ut eleifend metus vitae tortor ultricies, non vestibulum dolor ultrices. Phasellus
+      elementum diam arcu, quis scelerisque augue consectetur sit amet. Proin ornare ex vel placerat tincidunt. Donec
+      viverra sapien vitae nunc fringilla gravida. Aenean tincidunt dignissim tempor. Maecenas ut tristique arcu. Duis
+      vulputate volutpat ante euismod semper.</p>
+      <p class="card-text" style="opacity: 0% ;">"</p>
+      
+    <hr></br>
+  </div>
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-4" style="display: flex;">
+
+        <div><i class="fa fa-comment fw-fa fa-2x"></i></div>
+        <div style="padding-left: 30px;">
+          <h6> Fast & snappy </h6>
+          <p>In at urna commodo, tempor risus consectetur,sodales massa. Mauris nec blandit dolor.
+            Nullam tincidunt mi
+            nec urna luctus,
+            et pretium nunc facilisis.</p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
         </div>
-        <!-- timeline code -->
-        <div class="timeline-section">
-            <div class="">
-                <div class="line">
-                    <section class="timeline-section">
-                        <!-- <div class="timeline-start"></div> -->
-                        <div class=""></div>
-                        <div class="">
+      </div>
+      <div class="col-md-4" style="display: flex;">
+        <div><i class="fa fa-bolt fw-fa fa-3x"></i></div>
+        <div style="padding-left: 33px;">
+          <h6>Fresh Ideas</h6>
+          <p>In at urna commodo, tempor risus consectetur, sodales massa. Mauris nec blandit dolor.
+            Nullam tincidunt mi nec urna luctus, et pretium nunc facilisis.</p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+        </div>
+      </div>
+      <div class="col-md-4" style="display: flex;">
+        <div> <i class="fa fa-bullhorn fw-fa fa-2x"></i></div>
+        <div style="padding-left: 30px;">
+          <h6> Costumizable </h6>
+          <p>In at urna commodo, tempor risus consectetur, sodales massa. Mauris nec blandit dolor.
+            Nullam tincidunt mi nec urna luctus,
+            et pretium nunc facilisis. </p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+        </div>
+      </div>
+    </div>
 
-                            <div class="timeline-row">
-                                <div class="time-item">
-                                    <span>5:30-6:00 PM</span>
-                                </div>
-                                <div class="time-circle"></div>
-                                <div class="time-body">
-                                    <h4>
-                                        <i class="far fa-edit"></i> Check in event
-                                    </h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
-                                        est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
-                                    </p>
-                                </div>
-                            </div>
 
-                            <div class="timeline-row">
-                                <div class="time-item">
-                                    <span>6:00-7:00 PM</span>
-                                </div>
-                                <div class="time-circle"></div>
-                                <div class="time-body">
-                                    <h4>
-                                        <i class="far fa-clock"></i> First speaker
-                                    </h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
-                                        est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
-                                    </p>
-                                </div>
-                            </div>
+  </div>
 
-                            <div class="timeline-row">
-                                <div class="time-item">
-                                    <span>7:00-8:00 PM</span>
-                                </div>
-                                <div class="time-circle"></div>
-                                <div class="time-body">
-                                    <h4>
-                                        <i class="fas fa-trophy"></i> Audience contest
-                                    </h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
-                                        est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
-                                    </p>
-                                </div>
-                            </div>
+</section>
+<section style="background-color: #e2e2e2;">
+  <div>
+    <div class="guest container">
+      <p class="rand-title-event "><span class="size-30"> Guest <span class="size-30"><strong>
+              Speakers </strong></span></span></p>
+      <p class="rand-title-event"> Phasellus elementum diam arcu,quis scelerisque </br>
 
-                            <div class="timeline-row">
-                                <div class="time-item">
-                                    <span>8:00-11:00 PM</span>
-                                </div>
-                                <div class="time-circle"></div>
-                                <div class="time-body">
-                                    <h4>
-                                        <i class="fas fa-coffee"></i> Tea break
-                                    </h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
-                                        est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
-                                    </p>
-                                </div>
-                            </div>
+        augue consectetur sit amet</p>
+    </div>
 
-                        </div>
+    <div class="guest-card container" style="background-color: #e2e2e2;">
+      <div class="d-flex justify-content-center">
+        <div class="row row-cols-1 row-cols-md-4">
+          <div class="col mb-4">
+            <div class="card" style="border:none">
+              <div style="padding: 1.25rem; background: #e2e2e2">
 
-                    </section>
-                </div>
+                <img src="./images/1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background-color: #e2e2e2;">
+                <h5 class="card-title">Eliea Summers</h5>
+                <p class="card-text">FREELANCER </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar justo ut ligula
+                  convallis,
+                  a
+                  pretium massa gravida. Etiam laoreet nunc augue</p>
+                <a href="https://jevelin.shufflehound.com/"> <i class=" fa fa-linkedin fa-fw"></i> </a>
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-facebook fa-fw"></i></a>
+
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-instagram fa-fw"></i></a>
+              </div>
+
             </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card" style="border:none" ;>
+              <div style="padding: 1.25rem; background: #e2e2e2">
+
+                <img src="./images/2.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background:#e2e2e2" ;>
+                <h5 class="card-title">Aria Saal</h5>
+                <p class="card-text">DESIGNER
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar justo ut ligula
+                  convallis,
+                  a
+                  pretium massa gravida. Etiam laoreet nunc augue
+
+                </p>
+
+                <a href="https://jevelin.shufflehound.com/"> <i class=" fa fa-linkedin fa-fw"></i> </a>
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-facebook fa-fw"></i></a>
+
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-inbox fa-fw"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3">
+            <div class="card " style="border:none" ;>
+              <div style="padding: 1.25rem; background: #e2e2e2">
+
+                <img src="./images/3.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background: #e2e2e2" ;>
+                <h5 class="card-title">Tim Murreh</h5>
+                <p>Photographer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar justo ut ligula
+                  convallis,
+                  a
+                  pretium massa gravida. Etiam laoreet nunc augue</p>
+                <a href="https://jevelin.shufflehound.com/"> <i class="fa fa-skype fa-fw"></i></a>
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-facebook fa-fw"></i></a>
+
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-instagram fa-fw"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3">
+            <div class="card" style="border:none" ;>
+              <div style="padding: 1.25rem; background: #e2e2e2;">
+
+                <img src="./images/4.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background: #e2e2e2" ;>
+
+                <strong class="card-title">Share your story with the world!</strong>
+                <p class="card-text" style="opacity: 0% ;">"</p>
+                <p></p>Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis,
+                </p>
+                <p class="card-text" style="opacity: 0% ;">"</p>
+              </a>
+              <div class=hta-bottom>
+                              <a href="#" style="color: aliceblue;">How to apply ?</a>
+                            </div>
+              
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<!--Hameed part-->
+
+<!-- Event time line -->
+<section>
+  <div class="tl-margin">
+  <div class=timeline-title>
+      <h2>Event <b>time line</b></h2>
+      <p>
+          Phasellus elementum diam arcu, quis scelerisque augue consectetur sit amet
+      </p>
+  </div>
+  <!-- timeline code -->
+  <div class="timeline-section">
+      <div class="">
+          <div class="line">
+              <section class="timeline-section">
+                  <!-- <div class="timeline-start"></div> -->
+                  <div class=""></div>
+                  <div class="">
+
+                      <div class="timeline-row">
+                          <div class="time-item">
+                              <span>5:30-6:00 PM</span>
+                          </div>
+                          <div class="time-circle"></div>
+                          <div class="time-body">
+                              <h4>
+                                  <i class="fa fa-edit"></i> Check in event
+                              </h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
+                                  est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
+                              </p>
+                          </div>
+                      </div>
+
+                      <div class="timeline-row">
+                          <div class="time-item">
+                              <span>6:00-7:00 PM</span>
+                          </div>
+                          <div class="time-circle"></div>
+                          <div class="time-body">
+                              <h4>
+                                <i class="fa fa-bolt"></i> First speaker
+                              </h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
+                                  est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
+                              </p>
+                          </div>
+                      </div>
+
+                      <div class="timeline-row">
+                          <div class="time-item">
+                              <span>7:00-8:00 PM</span>
+                          </div>
+                          <div class="time-circle"></div>
+                          <div class="time-body">
+                              <h4>
+                                  <i class="fa fa-trophy"></i> Audience contest
+                              </h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
+                                  est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
+                              </p>
+                          </div>
+                      </div>
+
+                      <div class="timeline-row">
+                          <div class="time-item">
+                              <span>8:00-11:00 PM</span>
+                          </div>
+                          <div class="time-circle"></div>
+                          <div class="time-body">
+                              <h4>
+                                  <i class="fa fa-coffee"></i> Tea break
+                              </h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
+                                  est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
+                              </p>
+                          </div>
+                      </div>
+
+                  </div>
+
+              </section>
+          </div>
+      </div>
+  </div>
+  </div>
+</section>
+ 
+<section class="hta-background">
+  <div class="hta-section">
+      <div class="hta-row">
+          <div class="hta-title">
+              <h1>Fully responseive,
+              WooCommerce ready,
+              <b>user friendly, Eye candy!</b></h1>
+          </div>
+
+          <div class="hta-body">
+              <p>
+                  Praesent aliquam elit vitae elit auctor bibendum. Proin dignissim, purus at pretium molestie, turpis lacus dignissim ante, in finibus lacus mauris et lorem. Integer sit amet lorem sapien
+              </p>
+          </div>
+
+          <div class="hta-button">
+              <a href="#">HOW TO APPLY?</a>
+          </div>
+      </div>
+      <div class="hta-row"></div>
+  </div>
+</section>
+
+<!--YAZEN part-->
+
+  <!-- Event Location Section-->
+
+  <section class="mh-100 p-2 Event_line" style="height: 350px;">
+
+    <div class="pt-xl-5 ">
+  
+    <div class="d-flex flex-row justify-content-center align-items-center">
+  
+    <span class="event_location h2">Event</span>
+  
+    <strong>
+  
+    <span class="event_location h1"> location</span> 
+  
+    </strong>
+  
+    </div>
+    
+    <div class="d-flex flex-column justify-content-center align-items-center">
+  
+    <p class="h6">Nam sapien mi, auctor at turpis at, imperdiet facilisis tellus. Proin quis ex
+    </p>
+  
+    <p class="h6">convallis arcu ultrices dictum sed vel urna.</p>
+  
+    </div>
+  
+    </div>
+  
     </section>
+  
+    <!--Google map-->
+  
+    <section class="map col-md-12">
+  
+    <figure>
+  
+      <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 500px">
+        <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" style="border:0" allowfullscreen></iframe>
+  
+      </div>
+  
+    </figure>
+  
+  <!--Supporting_partners-->
+  
+    <section class="mh-100 p-2 partners section" style="height: 200px;">
+  
+      <div class="row text-center">
+  
+        <div class="col-md-4">
+    <h1>
+  
+    <span class="  Supporting_partners flex-row  h1"style="text-align: left;" > Supporting <strong> partners</strong></span></h1>
+  
+    </div>
+  <!--Partners logo imgs-->
+  
+    <div class="col-md-7">
+  
+      <div class="scrollmenu ">
+  
+        <img src="./images/Home_11_par_1.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_2.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_3.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_4.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_5.png"  class=" animated slideInRight slow infinite ">
+        <img src="./images/Home_11_par_1.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_2.png"  class=" animated slideInRight slow infinite ">
+        <img src="./images/Home_11_par_3.png"  class=" animated slideInRight slow infinite ">
+        <img src="./images/Home_11_par_4.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_5.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_1.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_2.png"  class=" animated slideInRight slow infinite ">
+        <img src="./images/Home_11_par_3.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_4.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_5.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_1.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_2.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_3.png"  class=" animated slideInRight slow infinite">
+        <img src="./images/Home_11_par_4.png"  class=" animated slideInRight slow infinite" >
+        <img src="./images/Home_11_par_5.png"  class=" animated slideInRight slow infinite">
        
-    <section class="hta-background">
-        <div class="hta-section">
-            <div class="hta-row">
-                <div class="hta-title">
-                    <h1>Fully responseive,
-                    WooCommerce ready,
-                    <b>user friendly, Eye candy!</b></h1>
-                </div>
-
-                <div class="hta-body">
-                    <p>
-                        Praesent aliquam elit vitae elit auctor bibendum. Proin dignissim, purus at pretium molestie, turpis lacus dignissim ante, in finibus lacus mauris et lorem. Integer sit amet lorem sapien
-                    </p>
-                </div>
-
-                <div class="hta-button">
-                    <a href="#">HOW TO APPLY?</a>
-                </div>
-            </div>
-            <div class="hta-row"></div>
-        </div>
+      </div>
+  
+    </div>
+  
+    </div>
+  
+  </section> 
+    
     </section>
-</body>
+    </main>
+  <section>
+  
+    <!-- Footer -->
+  <footer class="page-footer font-small cyan darken-3">
+  
+    <!--
+    <div class="container">
+  
+      
+      <div class="row">
+  
+        
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center"> -->
+          
+    <!-- Copyright -->
+  
+    <div class="footer-copyright text-center py-3 h4">
+      Copyright © 2016 JevelinTheme - Theme by Shufflehound
+  
+      
+    </div>
+    
+  
+  </footer>
+ 
+  
+  </section>
 
+</body>
 </html>
