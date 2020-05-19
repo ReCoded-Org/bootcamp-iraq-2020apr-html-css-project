@@ -1,0 +1,605 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+*::selection{
+    color: white;
+    background-color: rgb(250, 104, 78);
+}
+section{
+  overflow: hidden;
+}
+  /*Abdulrahman code*/
+  .navbar-dark {
+    background-color: transparent;
+    animation-name: slide1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+  }
+  @keyframes slide1 {
+    0% {
+      margin-top: -8vh;
+    }
+    100% {
+      margin-top: 0vh;
+    }
+  }
+  .navbar-light {
+    background-color: white;
+    animation-name: slide2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+  @keyframes slide2 {
+    0% {
+      margin-top: -8vh;
+    }
+    100% {
+      margin-top: 0vh;
+    }
+  }
+  .navbar-brand {
+    font-family: "Pacifico", cursive;
+    font-size: 32px;
+    margin-top: 0;
+    margin-left: 40px;
+  }
+  nav ul {
+    margin-right: 40px;
+  }
+  nav ul li {
+    padding: 0 3px;
+  }
+  nav ul li .icon {
+    margin: 0 -7px;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .jucie-img-container {
+    background-image: url(https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/17/2018/01/background-slider.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text h2 {
+    color: yellow;
+    font-family: "Sacramento", cursive;
+    font-size: 8vh;
+  }
+  .text h5 {
+    color: #E7E7E0;
+    font-family: "Montserrat", cursive;
+    font-size: 2vh;
+  }
+  .text h1 {
+    color: #E7E7E0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 12vh;
+  }
+  .lemon-container {
+    position: relative;
+    height: auto;
+  }
+  .lemon {
+    margin-top: 8.5%;
+    margin-left: 19.7%;
+  }
+  .prem {
+    margin-top: -8.5%;
+  }
+  .text-right {
+    animation-name: rr;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes rr{
+    0% {
+      margin-left: 180%;
+      opacity: 0;
+    }
+    100% {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
+  .text-left {
+    animation-name: ll;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes ll{
+    0% {
+      margin-left: -180%;
+      opacity: 0;
+    }
+    100% {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
+  .lemon {
+    animation-name: bounce;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+  }
+  @keyframes bounce {
+    0% {
+      margin-bottom: 8vh;
+      opacity: 0.9;
+    }
+    30% {
+      margin-bottom: 0.8vh;
+      opacity: 1;
+    }
+    40% {
+      margin-bottom: 1.5vh;
+    }
+    60% {
+      margin-bottom: 0.3vh;
+    }
+    80% {
+      margin-bottom: 0.7vh;
+    }
+    100% {
+      margin-bottom: 0vh;
+    }
+  }
+  .new.black {
+    color: black !important;
+  }
+  #navbarSupportedContent {
+    text-align: right;
+  }
+  .hide-icons {
+    display: none;
+  }
+  @media screen and (min-width: 992px) {
+    .hide-icons {
+      display: inline-flex;
+    }
+  }
+  @media screen and (max-width: 992px){
+  #navbarSupportedContent {
+    background-color: rgba(0,0,0,0.5);
+  }
+  }
+/*What We Can Offer section*/
+.bg-img {
+  background-image:url(imgs/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card{
+  padding: 0px 50px !important;
+}
+.style-h {
+  font-family: 'Cormorant Garamond', serif;
+}
+.padd{
+width: 70%;
+padding-top: 35px;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-h2{
+  text-align: center;
+  color:#363535;
+  font-family: 'Arapey', serif;
+  font-size: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left:30px;
+}
+.card-p{
+  text-align: center;
+  color:rgb(146, 143, 143);
+  font-size: 15px;
+  padding-left: 30px;
+}
+.column3 {
+  margin-top: 25px;
+}
+h6:before,
+h6:after {
+background-color: rgb(166, 166, 166);
+content: "";
+display: inline-block;
+height: 0.2px;
+position: relative;
+vertical-align: middle;
+width: 6%;
+margin: 10px;
+}
+/*dana's code*/
+
+.image{
+  padding: 0 !important;
+}
+.mycolumn{
+  padding: 0;
+}
+.seccolumn{
+  padding: 200px 45px 200px 140px !important;
+}
+.myrow{
+  margin: 0;
+  margin-top: 30px;
+}
+.seccolumn{
+  padding: 200px 45px 200px 140px !important;
+}
+#h1{
+  font-family: "Cormorant Garamond";
+  font-size: 40px;
+  font-weight: 200 !important;
+  opacity: 90%;
+  color: gray;
+  font-style: italic;
+}
+#lorem{
+  opacity: 95%;
+  color: gray;
+}
+.myem{
+  font-family: "Cormorant Garamond";
+  font-size: 580px;
+  font-weight: 100;
+  position:absolute;
+  font-style: italic;
+  opacity: 10%;
+  color: gray;
+  z-index: -1;
+  margin-top: -500px;
+} 
+
+.myshadow{
+  box-shadow: 0 1px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+/*Our Team section*/
+.sec-4{
+  width: 100vw;
+}
+.lightgray-text{
+  color: rgb(166, 166, 166);
+}
+.style-h{
+  padding-top: 4%;
+  color:rgb(62, 62, 62);
+}
+.card-size{
+  margin: 3% auto !important;
+  width: 83% !important;
+  padding: 0 !important;
+}
+.card-border{
+    border-style: none !important;
+}
+.bg-color{
+    color: rgb(166, 166, 166) !important;   
+}
+.ctext{
+  font-size: 15px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+}
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 55px;
+  right: 35px;
+  color: #f1f1f1 !important;
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: rgba(187, 187, 187, 0.562);
+  text-decoration: none;
+  cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+/*menu*/
+.menu-bg-img{
+  padding: 360px 0px 300px 0px;
+  background-image:url(https://cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/brooke-lark-385490.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  width:100%;
+}
+.menu-bg-img2 {
+  padding: 0px 0px 500px 0px;
+  margin: -500px 0px 0px 0px;
+  z-index: 100;
+  background-image:url(https://cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/Layer-0-copy-3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50% 100%;
+  background-color: transparent;
+}
+#menu {
+  margin-top: 100px;
+  }
+.menu-title {
+  font-family: 'Cormorant Garamond', serif;
+  padding:100px;
+}
+.menu-section1 {
+  padding:0px 40px 0px 50px;
+}
+.menu-section2 {
+padding:0px 50px 0px 40px;
+}
+.menu-par {
+  margin-left: 15px;
+}
+.menu-subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  margin:20px;
+  color:#FF7417;
+}
+.dish-title {
+  float:left;
+}
+.dish-price {
+  float:right;
+}
+.divider-line {
+  background-color: lightgray;
+  width: 95%;
+  height:1px;
+  margin:20px;
+}
+.menu-block {
+  float:left;
+  width:80%;
+}
+.empty-space {
+  height:80px;
+}
+.button {
+  text-decoration: none;
+  text-align: center;
+  max-width: 25%;
+  padding:20px 40px;
+  margin:0 35%;
+  color:#676767;
+  font-weight: bold;
+  font-size: 12px;
+  border:1px solid #676767;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.button:hover {
+  color:#FF7417;
+  border-color: #FF7417;
+  text-decoration: none ;
+}
+@media only screen and (max-width: 700px){
+  .button {
+    max-width: 15%;
+    padding:10px 20px;
+    margin:0 25%;
+  }
+}
+@media only screen and (max-width: 512px){
+  .button {
+    max-width: 5%;
+    padding:5px 10px;
+    margin:0 15%;
+  }
+}
+/*customer*/
+.customer{
+  height:90vh;
+  background-color: #F9F9F9;
+}
+.carousel-item.active{
+  height: 55vh;
+}
+@media only screen and (max-width:1000px){
+  .carousel-item.active{
+    height: 65vh;
+  }
+}
+@media only screen and (max-width:700px){
+  .carousel-item.active{
+    height: 70vh;
+  }
+}
+.img-size{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 2vh auto 0;
+  box-shadow: 2px 1px 3px #646464;
+  position: relative;
+}
+  .carousel-caption {
+      position: absolute;
+      z-index: 10;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: #646464;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .carousel-caption h3{
+      color: red;
+  }
+  .intro{
+      height: auto;
+      text-align: center;
+  }
+  .carousel-control-next{
+      height: 16vh;
+      margin-right: 20vw;
+      margin-top: 2vh;
+      z-index: 20;
+  }
+  .carousel-control-prev{
+      height: 16vh;
+      margin-left: 20vw;
+      margin-top: 2vh;
+      z-index: 20;
+  }
+  .carousel-control-next-icon {
+      background-image: url(./imgs/right-arow.png);
+      height: 30px;
+  }
+  .carousel-control-prev-icon {
+      background-image: url(./imgs/left-arow.png);
+      height: 30px;}
+/*select a date & book now*/
+.select-date-bg-img{
+  background-image: url(//cdn.jevelin.shufflehound.com/foodie/wp-content/uploads/sites/17/2018/01/brooke-lark-385504.jpg);
+  position: relative;
+  padding: 0 !important;
+}
+.text-block {
+ margin: 100px;
+ background-color: white;
+ border-radius: 15px;
+}
+.style-input{  
+  border-width: 0!important;
+  border-bottom-width: 1px!important;
+  border-radius: 0 !important;
+  line-height: 82px!important;
+  padding: 0 46px;
+}
+.link-style{
+  color: black;
+}
+.link-style:hover{
+  color: rgb(166, 166, 166);
+  text-decoration: none;
+}
+.form-control-new:focus{
+  outline:0;
+  box-shadow: none;
+  border-color: tomato;
+}
+/* map */
+.myform{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.formh1{
+  font-family: "Cormorant Garamond";
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.availabletime{
+  padding: 140px 0;
+  font-family: Montserrat;
+}
+
+.hrdiv{
+  margin: 0 auto;
+}
+
+.hrline{
+  background-color: #fff;
+  border-top: 1px dashed #8c8b8b;
+  opacity: 50%;
+}
+
+.rest-addres{
+  color: #646464;
+}
+@media only screen and (max-width:1000px){
+.mymapp{
+  width: 100%;
+  height: 500px;
+}
+}
+/*footer*/
+footer{
+    background-color:#363535;
+    color: white;
+}
+.fot-padd{
+ display: flex;
+ flex-direction: row;
+}
+.fot-padd li{
+  list-style-type: none;
+  padding: 40px;
+  padding: 0 25px;
+}
