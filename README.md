@@ -1,15 +1,41 @@
-# HTML/CSS Project
+## Description:
+We'll be working on creative agency webpage.
+We'll do the home page only.
 
-1. Create a folder with your team name.
-1. Create a `README.md` inside the folder with a description of what you'll be working on.
-    - Write the names of your team members
-    - The URL of the design you chose
-    - Screenshots (desktop, tablet, and mobile versions) of the pages you'll build
-    - Who will be working on each part of the website
-    - Which CSS Framework you'll be using
-    - How much of the website do you plan on finishing by May 5 (Tuesday) 
-1. Submit a pull request with the above by the end of May 3.
-1. Once the images are accepted by the trainer team you should start working on implementing it.
-1. Submit a pull request on May 5 (Tuesday) with a `WIP` status which just shows your progress by then.
-1. Submit a final pull request on May 8 (Friday) @ 9 PM which is the deadline for this assignment.
-1. Come prepared on May 9 (Saturday) to do a 5-minute demo of your project in class to all the students! :D
+## Team members:
+1. Bawan Majid
+2. Vazhin Tayeb
+3. Mohamed khalel
+4. Zainab Azzam
+
+## The link to the design:
+<a href="https://jevelin.shufflehound.com/creative-agency/">Creative Agency</a>
+
+## Screenshots (desktop, tablet, and mobile versions):
+Check muckup-imgs folder.
+
+## Who will be working on each part of the website:
+We have divided the sections of the main page between us, here's how that'll work,
+
+### Vazhin
+* landing-page
+* SERVICES & PORTFOLIO
+* ACHIEVEMENTS
+
+### Bawan
+* MASTER CREW
+* Advertising section
+* OUR CLIENTS & partners
+
+### Mohamed & Zainab
+* Subscribe to our newsletter
+* CONTACT US
+* The footer
+
+> note: that's just to start out, we will change plans according to the needs.
+
+## The CSS Framework we'll be using:
+Bootstrap.
+
+## How much of the website we plan on finishing by May 5:
+We plan on completing half of the main page by may 5.
