@@ -1,4 +1,5 @@
 # HTML/CSS Project
+A html and css profollio project
 
 1. Create a folder with your team name.
 1. Create a `README.md` inside the folder with a description of what you'll be working on.
